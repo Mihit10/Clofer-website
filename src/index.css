@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Blackjack';
+  src: url('./fonts/Sacramento-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Callove';
+  src: url('./fonts/callove-script.ttf') format('truetype');
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 80s linear infinite;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
