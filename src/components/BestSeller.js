@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 // ✅ Placeholder image path (must exist in public/assets/)
 const placeholderImg = "/assets/placeholder.jpg";

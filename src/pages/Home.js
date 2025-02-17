@@ -2,6 +2,7 @@ import React from "react";
 import SlideShow from "../components/SlideShow"; // Import Slideshow Component
 import BestSeller from "../components/BestSeller";
 import NewArrival from "../components/NewArrival";
+import Review from "../components/Review";
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
       <SlideShow />
       <BestSeller />
       <NewArrival />
+      <Review />
+
       {/* More components will be added here later */}
     </div>
   );
