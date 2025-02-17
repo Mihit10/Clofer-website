@@ -5,8 +5,8 @@ import { div } from "framer-motion/client";
 // ✅ Placeholder image path (must exist in public/assets/)
 const placeholderImg = "/assets/placeholder.jpg";
 
-const BestSeller = () => {
-  const [bestSellers, setBestSellers] = useState([]);
+const NewArrival = () => {
+  const [newArrivals, setNewArrivals] = useState([]);
   const [visibleCount, setVisibleCount] = useState(8); // ✅ Start with 8 products
   const itemsPerLoad = 8; // ✅ Load 8 more each time
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 640);
@@ -26,8 +26,8 @@ const BestSeller = () => {
     fetch("/data/products.json")
       .then((response) => response.json())
       .then((data) => {
-        if (data.bestsellers) {
-          setBestSellers(data.bestsellers);
+        if (data.new_arrivals) {
+          setNewArrivals(data.new_arrivals);
         }
       })
       .catch((error) => console.error("Error loading products:", error));
@@ -35,6 +35,7 @@ const BestSeller = () => {
 
   return (
     <section className="px-4 py-10 md:px-8 lg:px-16">
+        
       
 
       {/* ✅ Desktop View (NO CHANGES) */}
@@ -43,13 +44,13 @@ const BestSeller = () => {
         {/* ✅ Section Heading */}
       <div className="text-center mb-6">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-playfair font-semibold tracking-wide text-customPlum dark:text-darkText">
-          ✨ Handpicked Bestsellers, Curated for You ✨
+        ✨ Fresh New Arrivals, Discover the Latest Designs ✨
         </h2>
         <div className="w-24 mx-auto mt-2 border-b-4 border-customPlum dark:border-darkAccent"></div>
       </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-          {bestSellers.slice(0, visibleCount).map((product) => {
+          {newArrivals.slice(0, visibleCount).map((product) => {
             const imgSrc = product.img_path
               ? product.img_path.replace("src/assets/", "/assets/")
               : placeholderImg;
@@ -83,7 +84,7 @@ const BestSeller = () => {
                     ease: "easeInOut",
                   }}
                 >
-                  Best Seller
+                  New
                 </motion.span>
 
                 {/* ✅ Product Image */}
@@ -130,14 +131,14 @@ const BestSeller = () => {
           {/* ✅ Section Heading */}
       <div className="text-center mb-6">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-playfair font-semibold tracking-wide text-customPlum dark:text-darkText">
-          ✨ Handpicked Bestsellers ✨<br />✨ Curated for You ✨
+          ✨ Fresh New Arrivals ✨<br />✨ Discover the Latest Designs ✨
         </h2>
         <div className="w-24 mx-auto mt-2 border-b-4 border-customPlum dark:border-darkAccent"></div>
       </div>
         
 
         <div className="grid grid-cols-2 gap-5">
-          {bestSellers.slice(0, visibleCount).map((product, index) => {
+          {newArrivals.slice(0, visibleCount).map((product, index) => {
             const imgSrc = product.img_path
               ? product.img_path.replace("src/assets/", "/assets/")
               : placeholderImg;
@@ -171,7 +172,7 @@ const BestSeller = () => {
                     ease: "easeInOut",
                   }}
                 >
-                  Best Seller
+                  New
                 </motion.span>
 
 
@@ -216,7 +217,7 @@ const BestSeller = () => {
       )}
 
       {/* ✅ View More Button */}
-      {visibleCount < bestSellers.length && (
+      {visibleCount < newArrivals.length && (
         <div className="text-center mt-6">
           <button
             onClick={() => setVisibleCount((prev) => prev + itemsPerLoad)}
@@ -226,9 +227,8 @@ const BestSeller = () => {
           </button>
         </div>
       )}
-      
     </section>
   );
 };
 
-export default BestSeller;
+export default NewArrival;

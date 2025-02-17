@@ -155,6 +155,66 @@
   "new_arrivals": [
     {
       "id": 11,
+      "name": "Chikankari Cotton Kurti",
+      "og_price": 1999,
+      "display_price": 1499,
+      "description": "Elegant hand-embroidered Chikankari kurti.",
+      "product_detail": "Made from 100% cotton, this kurti is perfect for summer wear.",
+      "tags": ["chikankari", "cotton", "kurti", "hand-embroidered"],
+      "colors": ["White", "Blue", "Pink"],
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0002.jpg",
+      "additional_images": [
+        "/assets/products/chikankari_cotton_kurti_1.jpg",
+        "/assets/products/chikankari_cotton_kurti_2.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Handcrafted Georgette Kurti",
+      "og_price": 2499,
+      "display_price": 1899,
+      "description": "A stylish georgette kurti with intricate Lucknowi embroidery.",
+      "product_detail": "Soft georgette fabric, ideal for casual and party wear.",
+      "tags": ["georgette", "kurti", "handcrafted", "lucknowi"],
+      "colors": ["Peach", "Mint Green"],
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0003.jpg",
+      "additional_images": [
+        "/assets/products/handcrafted_georgette_kurti_1.jpg",
+        "/assets/products/handcrafted_georgette_kurti_2.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Embroidered Silk Tunic",
+      "og_price": 2999,
+      "display_price": 2199,
+      "description": "A luxurious silk tunic featuring delicate thread embroidery.",
+      "product_detail": "Crafted with premium silk fabric, lightweight and breathable.",
+      "tags": ["silk", "tunic", "embroidered", "ethnic"],
+      "colors": ["Maroon", "Black"],
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0006.jpg",
+      "additional_images": [
+        "/assets/products/embroidered_silk_tunic_1.jpg",
+        "/assets/products/embroidered_silk_tunic_2.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Classic White Chikankari Kurti",
+      "og_price": 2699,
+      "display_price": 1999,
+      "description": "Timeless white kurti with handwoven Chikankari embroidery.",
+      "product_detail": "Made from premium muslin cotton for ultimate comfort.",
+      "tags": ["chikankari", "white kurti", "handwoven", "cotton"],
+      "colors": ["White"],
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0012.jpg",
+      "additional_images": [
+        "/assets/products/classic_white_kurti_1.jpg",
+        "/assets/products/classic_white_kurti_2.jpg"
+      ]
+    },
+    {
+      "id": 15,
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -162,14 +222,14 @@
       "product_detail": "Long flowy silhouette with mirror embroidery.",
       "tags": ["anarkali", "royal blue", "mirror work", "festive wear"],
       "colors": ["Royal Blue", "Deep Green"],
-      "img_path": "/assets/products/royal_blue_anarkali.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0014.jpg",
       "additional_images": [
         "/assets/products/royal_blue_anarkali_1.jpg",
         "/assets/products/royal_blue_anarkali_2.jpg"
       ]
     },
     {
-      "id": 12,
+      "id": 16,
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -177,14 +237,14 @@
       "product_detail": "Cotton silk blend, designed for elegance and comfort.",
       "tags": ["angrakha", "pastel peach", "zari work", "cotton silk"],
       "colors": ["Peach", "Beige"],
-      "img_path": "/assets/products/pastel_peach_angrakha.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0018.jpg",
       "additional_images": [
         "/assets/products/pastel_peach_angrakha_1.jpg",
         "/assets/products/pastel_peach_angrakha_2.jpg"
       ]
     },
     {
-      "id": 13,
+      "id": 17,
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -192,14 +252,14 @@
       "product_detail": "Luxurious rayon fabric, perfect for evening wear.",
       "tags": ["black", "gold", "threadwork", "party wear"],
       "colors": ["Black"],
-      "img_path": "/assets/products/black_gold_threadwork.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0019.jpg",
       "additional_images": [
         "/assets/products/black_gold_threadwork_1.jpg",
         "/assets/products/black_gold_threadwork_2.jpg"
       ]
     },
     {
-      "id": 14,
+      "id": 18,
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -207,14 +267,14 @@
       "product_detail": "Soft cambric cotton fabric, vibrant and lightweight.",
       "tags": ["floral", "printed kurti", "chikankari", "cambric cotton"],
       "colors": ["Floral White", "Pastel Yellow"],
-      "img_path": "/assets/products/floral_printed_kurti.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0022.jpg",
       "additional_images": [
         "/assets/products/floral_printed_kurti_1.jpg",
         "/assets/products/floral_printed_kurti_2.jpg"
       ]
     },
     {
-      "id": 15,
+      "id": 19,
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -222,14 +282,14 @@
       "product_detail": "Handwoven khadi fabric, breathable and eco-friendly.",
       "tags": ["khadi", "mustard yellow", "handwoven", "sustainable"],
       "colors": ["Mustard Yellow", "Olive Green"],
-      "img_path": "/assets/products/mustard_khadi_kurti.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0027.jpg",
       "additional_images": [
         "/assets/products/mustard_khadi_kurti_1.jpg",
         "/assets/products/mustard_khadi_kurti_2.jpg"
       ]
     },
     {
-      "id": 16,
+      "id": 20,
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -237,7 +297,7 @@
       "product_detail": "Gradient-dyed cotton fabric with elegant embroidery.",
       "tags": ["ombre", "chikankari", "pink kurti", "cotton"],
       "colors": ["Pink Ombre", "Lavender Ombre"],
-      "img_path": "/assets/products/pink_ombre_kurti.jpg",
+      "img_path": "/assets/SlideShow/IMG-20250213-WA0007.jpg",
       "additional_images": [
         "/assets/products/pink_ombre_kurti_1.jpg",
         "/assets/products/pink_ombre_kurti_2.jpg"

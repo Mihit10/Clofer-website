@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Search, MessageCircle, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion"; // For animations
+
 const logo = "/assets/clofer_textless_logo.png";
 const logo_inv = "/assets/clofer_textless_logo_inverted.png";
-import { motion, AnimatePresence } from "framer-motion"; // For animations
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -54,7 +55,7 @@ const Header = () => {
   return (
     <>
       {/* Header */}
-      <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText px-6 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-0 z-50">
+      <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText px-6 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-[48px] z-40">
 
         
         {/* Left Side - Logo & Brand Name */}

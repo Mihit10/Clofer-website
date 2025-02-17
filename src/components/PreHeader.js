@@ -17,7 +17,7 @@ const PreHeader = () => {
   }, [darkMode]);
 
   return (
-    <div className="bg-customLavender dark:bg-darkBg text-customPlum dark:text-darkText py-2 px-4 text-lg font-semibold shadow-md tracking-wide drop-shadow-lg flex items-center justify-between border-t-2 dark:border-t-0 z-50">
+    <div className="bg-customLavender dark:bg-darkBg text-customPlum dark:text-darkText py-2 px-4 text-lg font-semibold tracking-wide flex items-center justify-between border-t-2 dark:border-t-0 sticky top-0 z-50">
       <div></div>
       {/* Text Content */}
       <span className="font-playfair text-xs md:text-sm lg:text-base text-center">
