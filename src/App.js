@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"; // Import Home page
 import PreHeader from "./components/PreHeader"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           {/* Future routes for other pages can be added here */}
         </Routes>
+      
+      <Footer />
       </div>
     </Router>
   );

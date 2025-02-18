@@ -102,7 +102,7 @@ const NewArrival = () => {
 
                 {/* ✅ Product Info */}
                 <div className="p-4">
-                  <h3 className="text-sm sm:text-md md:text-lg font-semibold">{product.name}</h3>
+                  <h3 className="text-sm sm:text-md md:text-lg font-semibold dark:text-darkText">{product.name}</h3>
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {product.description}
                   </p>
@@ -191,7 +191,7 @@ const NewArrival = () => {
 
                 {/* ✅ Product Info */}
                 <div className={`p-3 flex flex-col justify-between ${isWideCard ? "w-3/5" : ""}`}>
-                  <h3 className="text-xs font-semibold">{product.name}</h3>
+                  <h3 className="text-xs font-semibold dark:text-darkText">{product.name}</h3>
                   <p className="text-xs text-gray-500 dark:text-gray-400">
                     {product.description}
                   </p>
