@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaFacebook, FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt, FaChevronDown } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaPhone, FaEnvelope, FaMapMarkerAlt, FaChevronDown } from 'react-icons/fa';
 
 const Footer = () => {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 640);
@@ -173,7 +173,7 @@ const Footer = () => {
             <div className="flex space-x-6 text-sm">
               <a href="/privacy-policy" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Privacy Policy</a>
               <a href="/terms" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Terms of Service</a>
-              <a href="/sitemap" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Sitemap</a>
+              {/* <a href="/sitemap" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Sitemap</a> */}
             </div>
           </div>
         </div>
