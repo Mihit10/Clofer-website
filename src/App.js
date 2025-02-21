@@ -5,6 +5,7 @@ import OurStory from "./pages/OurStory";
 import StorePolicy from "./pages/StorePolicy";
 import ReturnExchange from "./pages/ReturnExchange";
 import InternationalShipping from "./pages/InternationalShipping";
+import ProductPage from "./pages/ProductPage";
 
 import PreHeader from "./components/PreHeader"
 import Header from "./components/Header"
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/store-policy" element={<StorePolicy />} />
           <Route path="/return-exchange-policy" element={<ReturnExchange />} />
           <Route path="/international-orders" element={<InternationalShipping />} />
+          <Route path="/bestseller/product/:id" element={<ProductPage />} />
           {/* Future routes for other pages can be added here */}
         </Routes>
       

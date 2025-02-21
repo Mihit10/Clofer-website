@@ -6,13 +6,13 @@
         "og_price": 1999,
         "display_price": 1499,
         "description": "Elegant hand-embroidered Chikankari kurti.",
-        "product_detail": "Made from 100% cotton, this kurti is perfect for summer wear.",
+        "product_detail": "Made from 100% cotton, this kurti is perfect for summer wear. Made from 100% cotton, this kurti is perfect for summer wear. Made from 100% cotton, this kurti is perfect for summer wear. Made from 100% cotton, this kurti is perfect for summer wear. Made from 100% cotton, this kurti is perfect for summer wear. Made from 100% cotton, this kurti is perfect for summer wear.",
         "tags": ["chikankari", "cotton", "kurti", "hand-embroidered"],
         "colors": ["White", "Blue", "Pink"],
         "img_path": "/assets/SlideShow/IMG-20250213-WA0002.jpg",
         "additional_images": [
-          "/assets/products/chikankari_cotton_kurti_1.jpg",
-          "/assets/products/chikankari_cotton_kurti_2.jpg"
+          "/assets/SlideShow/IMG-20250213-WA0003.jpg",
+          "/assets/SlideShow/IMG-20250213-WA0006.jpg"
         ]
       },
       {
@@ -56,6 +56,9 @@
         "colors": ["White"],
         "img_path": "/assets/SlideShow/IMG-20250213-WA0012.jpg",
         "additional_images": [
+          "/assets/products/classic_white_kurti_1.jpg",
+          "/assets/products/classic_white_kurti_1.jpg",
+          "/assets/products/classic_white_kurti_1.jpg",
           "/assets/products/classic_white_kurti_1.jpg",
           "/assets/products/classic_white_kurti_2.jpg"
         ]

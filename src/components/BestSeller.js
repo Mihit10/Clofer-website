@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 // ✅ Placeholder image path (must exist in public/assets/)
 const placeholderImg = "/assets/placeholder.jpg";
@@ -9,6 +10,7 @@ const BestSeller = () => {
   const [visibleCount, setVisibleCount] = useState(8); // ✅ Start with 8 products
   const itemsPerLoad = 8; // ✅ Load 8 more each time
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 640);
+  const navigate = useNavigate();
 
   // ✅ Detect screen size for mobile vs desktop
   useEffect(() => {
@@ -31,6 +33,10 @@ const BestSeller = () => {
       })
       .catch((error) => console.error("Error loading products:", error));
   }, []);
+
+  const openProductPage = (product) => {
+    navigate(`/bestseller/product/${product.id}`);
+  };
 
   return (
     <section className="px-4 py-10 md:px-8 lg:px-16">
@@ -56,7 +62,8 @@ const BestSeller = () => {
             return (
               <motion.div
                 key={product.id}
-                className="relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg"
+                onClick={() => openProductPage(product)} // ✅ Add this back
+                className="cursor-pointer relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg"
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.15)",
@@ -66,6 +73,7 @@ const BestSeller = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6, ease: "easeOut" }}
               >
+
                 {/* ✅ Best Seller Badge - Shimmer Effect */}
                 <motion.span
                   className="absolute top-2 left-2 text-xs px-3 py-1 rounded-full shadow-md text-customPlum font-semibold"
@@ -146,6 +154,7 @@ const BestSeller = () => {
             return (
               <motion.div
                 key={product.id}
+                onClick={() => openProductPage(product)}
                 className={`relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg flex ${
                   isWideCard ? "col-span-2 flex-row h-40" : "flex-col h-auto"
                 }`}
