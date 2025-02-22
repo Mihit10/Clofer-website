@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+
 // import { div } from "framer-motion/client";
 
 // ✅ Placeholder image path (must exist in public/assets/)
@@ -10,6 +12,8 @@ const NewArrival = () => {
   const [visibleCount, setVisibleCount] = useState(8); // ✅ Start with 8 products
   const itemsPerLoad = 8; // ✅ Load 8 more each time
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 640);
+  const navigate = useNavigate();  // for nav
+
 
   // ✅ Detect screen size for mobile vs desktop
   useEffect(() => {
@@ -32,6 +36,11 @@ const NewArrival = () => {
       })
       .catch((error) => console.error("Error loading products:", error));
   }, []);
+
+  // for nav
+  const openProductPage = (product) => {
+    navigate(`/newarrival/product/${product.id}`);
+  };
 
   return (
     <section className="px-4 py-10 md:px-8 lg:px-16">
@@ -58,6 +67,7 @@ const NewArrival = () => {
             return (
               <motion.div
                 key={product.id}
+                onClick={() => openProductPage(product)}  // for nav
                 className="relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg"
                 whileHover={{
                   scale: 1.05,
@@ -148,6 +158,7 @@ const NewArrival = () => {
             return (
               <motion.div
                 key={product.id}
+                onClick={() => openProductPage(product)}  // for nav
                 className={`relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg flex ${
                   isWideCard ? "col-span-2 flex-row h-40" : "flex-col h-auto"
                 }`}

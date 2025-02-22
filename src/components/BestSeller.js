@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";  // for nav
 
 // ✅ Placeholder image path (must exist in public/assets/)
 const placeholderImg = "/assets/placeholder.jpg";
@@ -10,7 +10,7 @@ const BestSeller = () => {
   const [visibleCount, setVisibleCount] = useState(8); // ✅ Start with 8 products
   const itemsPerLoad = 8; // ✅ Load 8 more each time
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 640);
-  const navigate = useNavigate();
+  const navigate = useNavigate();  // for nav
 
   // ✅ Detect screen size for mobile vs desktop
   useEffect(() => {
@@ -34,6 +34,7 @@ const BestSeller = () => {
       .catch((error) => console.error("Error loading products:", error));
   }, []);
 
+  // for nav
   const openProductPage = (product) => {
     navigate(`/bestseller/product/${product.id}`);
   };
@@ -62,7 +63,7 @@ const BestSeller = () => {
             return (
               <motion.div
                 key={product.id}
-                onClick={() => openProductPage(product)} // ✅ Add this back
+                onClick={() => openProductPage(product)} // for nav
                 className="cursor-pointer relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg"
                 whileHover={{
                   scale: 1.05,
@@ -154,7 +155,7 @@ const BestSeller = () => {
             return (
               <motion.div
                 key={product.id}
-                onClick={() => openProductPage(product)}
+                onClick={() => openProductPage(product)} // for nav
                 className={`relative overflow-hidden bg-white dark:bg-darkSubtle rounded-lg shadow-lg flex ${
                   isWideCard ? "col-span-2 flex-row h-40" : "flex-col h-auto"
                 }`}

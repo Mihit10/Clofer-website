@@ -26,6 +26,9 @@ const App = () => {
           <Route path="/store-policy" element={<StorePolicy />} />
           <Route path="/return-exchange-policy" element={<ReturnExchange />} />
           <Route path="/international-orders" element={<InternationalShipping />} />
+
+          {/* Product Page */}
+          <Route path="/newarrival/product/:id" element={<ProductPage />} />
           <Route path="/bestseller/product/:id" element={<ProductPage />} />
           {/* Future routes for other pages can be added here */}
         </Routes>
