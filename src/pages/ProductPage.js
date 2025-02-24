@@ -16,24 +16,42 @@ const ProductPage = () => {
     fetch("/data/products.json")
       .then((response) => response.json())
       .then((data) => {
-        let foundProduct =
-          data.bestsellers.find((p) => p.id === Number(id)) ||
-          (data.new_arrivals && data.new_arrivals.find((p) => p.id === Number(id)));
+        const allCategories = [
+          "bestsellers",
+          "new_arrivals",
+          "short_kurti",
+          "long_kurti",
+          "kurti_set",
+          "clofer_luxe",
+          "bottoms",
+          "clofer_crestline",
+        ];
+  
+        let foundProduct = null;
+  
+        for (let category of allCategories) {
+          if (data[category]) {
+            foundProduct = data[category].find((p) => p.id === Number(id));
+            if (foundProduct) break; // Stop searching once found
+          }
+        }
+  
         console.log("Found Product:", foundProduct);
-
+  
         if (foundProduct) {
-          const mainImage = foundProduct.img_path.replace("src/assets/", "/assets/");
+          const mainImage = foundProduct.img_path?.replace("src/assets/", "/assets/") || "";
           const additionalImages =
             foundProduct.additional_images?.map((img) =>
               img.replace("src/assets/", "/assets/")
             ) || [];
           const allImages = [mainImage, ...additionalImages.filter((img) => img !== mainImage)];
-
+  
           setProduct({ ...foundProduct, additional_images: allImages });
           setSelectedImage(mainImage);
-          setSelectedColor(foundProduct.colors[0]);
-          setSelectedSize(foundProduct.size[0]); // Default size
+          setSelectedColor(foundProduct.colors?.[0] || null);
+          setSelectedSize(foundProduct.size?.[0] || null); // Default size if available
         }
+  
         setLoading(false);
       })
       .catch((error) => {
@@ -41,6 +59,7 @@ const ProductPage = () => {
         setLoading(false);
       });
   }, [id]);
+  
 
   if (loading) {
     return <p className="text-center text-lg py-10">Loading product...</p>;
