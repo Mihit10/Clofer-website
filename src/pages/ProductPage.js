@@ -31,7 +31,7 @@ const ProductPage = () => {
   
         for (let category of allCategories) {
           if (data[category]) {
-            foundProduct = data[category].find((p) => p.id === Number(id));
+            foundProduct = data[category].find((p) => p.id === id);
             if (foundProduct) break; // Stop searching once found
           }
         }

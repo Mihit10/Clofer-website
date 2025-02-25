@@ -1,7 +1,7 @@
 {
     "bestsellers": [
       {
-        "id": 1,
+        "id": "bs01",
         "name": "Chikankari Cotton Kurti",
         "og_price": 1999,
         "display_price": 1499,
@@ -23,7 +23,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 2,
+        "id": "bs02",
         "name": "Handcrafted Georgette Kurti",
         "og_price": 2499,
         "display_price": 1899,
@@ -45,7 +45,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 3,
+        "id": "bs03",
         "name": "Embroidered Silk Tunic",
         "og_price": 2999,
         "display_price": 2199,
@@ -67,7 +67,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 4,
+        "id": "bs04",
         "name": "Classic White Chikankari Kurti",
         "og_price": 2699,
         "display_price": 1999,
@@ -92,7 +92,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 5,
+        "id": "bs05",
         "name": "Royal Blue Anarkali Kurti",
         "og_price": 3499,
         "display_price": 2599,
@@ -114,7 +114,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 6,
+        "id": "bs06",
         "name": "Pastel Peach Angrakha Kurti",
         "og_price": 2799,
         "display_price": 2099,
@@ -136,7 +136,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 7,
+        "id": "bs07",
         "name": "Black and Gold Threadwork Kurti",
         "og_price": 3199,
         "display_price": 2399,
@@ -158,7 +158,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 8,
+        "id": "bs08",
         "name": "Floral Printed Chikankari Kurti",
         "og_price": 2599,
         "display_price": 1899,
@@ -180,7 +180,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 9,
+        "id": "bs09",
         "name": "Mustard Yellow Khadi Kurti",
         "og_price": 2399,
         "display_price": 1799,
@@ -202,7 +202,7 @@
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
       {
-        "id": 10,
+        "id": "bs10",
         "name": "Pink Ombre Chikankari Kurti",
         "og_price": 2899,
         "display_price": 2199,
@@ -227,7 +227,7 @@
   
   "new_arrivals": [
     {
-      "id": 11,
+      "id": "na01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -249,7 +249,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 12,
+      "id": "na02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -271,7 +271,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 13,
+      "id": "na03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -293,7 +293,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 14,
+      "id": "na04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -315,7 +315,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 15,
+      "id": "na05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -337,7 +337,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 16,
+      "id": "na06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -359,7 +359,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 17,
+      "id": "na07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -381,7 +381,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 18,
+      "id": "na08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -403,7 +403,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 19,
+      "id": "na09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -425,7 +425,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 20,
+      "id": "na10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -450,7 +450,7 @@
 
   "short_kurti": [
     {
-      "id": 21,
+      "id": "sk01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -472,7 +472,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 22,
+      "id": "sk02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -494,7 +494,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 23,
+      "id":"sk03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -516,7 +516,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 24,
+      "id": "sk04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -538,7 +538,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 25,
+      "id": "sk05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -560,7 +560,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 26,
+      "id": "sk06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -582,7 +582,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 27,
+      "id": "sk07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -604,7 +604,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 28,
+      "id": "sk08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -626,7 +626,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 29,
+      "id": "sk09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -648,7 +648,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 30,
+      "id": "sk10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -673,7 +673,7 @@
 
   "long_kurti": [
     {
-      "id": 31,
+      "id": "lk01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -695,7 +695,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 32,
+      "id": "lk02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -717,7 +717,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 33,
+      "id": "lk03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -739,7 +739,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 34,
+      "id": "lk04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -761,7 +761,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 35,
+      "id": "lk05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -783,7 +783,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 36,
+      "id": "lk06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -805,7 +805,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 37,
+      "id": "lk07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -827,7 +827,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 38,
+      "id": "lk08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -849,7 +849,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 39,
+      "id": "lk09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -871,7 +871,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 40,
+      "id": "lk10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -896,7 +896,7 @@
 
   "kurti_set": [
     {
-      "id": 41,
+      "id": "ks01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -918,7 +918,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 42,
+      "id": "ks02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -940,7 +940,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 43,
+      "id": "ks03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -962,7 +962,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 44,
+      "id": "ks04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -984,7 +984,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 45,
+      "id": "ks05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -1006,7 +1006,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 46,
+      "id": "ks06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -1028,7 +1028,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 47,
+      "id": "ks07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -1050,7 +1050,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 48,
+      "id": "ks08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -1072,7 +1072,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 49,
+      "id": "ks09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -1094,7 +1094,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 50,
+      "id": "ks10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -1119,7 +1119,7 @@
 
   "clofer_luxe": [
     {
-      "id": 51,
+      "id": "cl01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -1141,7 +1141,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 52,
+      "id": "cl02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -1163,7 +1163,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 53,
+      "id": "cl03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -1185,7 +1185,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 54,
+      "id": "cl04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -1207,7 +1207,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 55,
+      "id": "cl05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -1229,7 +1229,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 56,
+      "id": "cl06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -1251,7 +1251,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 57,
+      "id": "cl07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -1273,7 +1273,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 58,
+      "id": "cl08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -1295,7 +1295,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 59,
+      "id": "cl09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -1317,7 +1317,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 60,
+      "id": "cl10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -1342,7 +1342,7 @@
 
   "bottoms": [
     {
-      "id": 61,
+      "id": "b01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -1364,7 +1364,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 62,
+      "id": "b02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -1386,7 +1386,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 63,
+      "id": "b03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -1408,7 +1408,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 64,
+      "id": "b04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -1430,7 +1430,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 65,
+      "id": "b05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -1452,7 +1452,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 66,
+      "id": "b06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -1474,7 +1474,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 67,
+      "id": "b07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -1496,7 +1496,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 68,
+      "id": "b08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -1518,7 +1518,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 69,
+      "id": "b09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -1540,7 +1540,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 70,
+      "id": "b10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
@@ -1565,7 +1565,7 @@
 
   "clofer_crestline": [
     {
-      "id": 71,
+      "id": "cc01",
       "name": "Chikankari Cotton Kurti",
       "og_price": 1999,
       "display_price": 1499,
@@ -1587,7 +1587,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 72,
+      "id": "cc02",
       "name": "Handcrafted Georgette Kurti",
       "og_price": 2499,
       "display_price": 1899,
@@ -1609,7 +1609,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 73,
+      "id": "cc03",
       "name": "Embroidered Silk Tunic",
       "og_price": 2999,
       "display_price": 2199,
@@ -1631,7 +1631,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 74,
+      "id": "cc04",
       "name": "Classic White Chikankari Kurti",
       "og_price": 2699,
       "display_price": 1999,
@@ -1653,7 +1653,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 75,
+      "id": "cc05",
       "name": "Royal Blue Anarkali Kurti",
       "og_price": 3499,
       "display_price": 2599,
@@ -1675,7 +1675,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 76,
+      "id": "cc06",
       "name": "Pastel Peach Angrakha Kurti",
       "og_price": 2799,
       "display_price": 2099,
@@ -1697,7 +1697,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 77,
+      "id": "cc07",
       "name": "Black and Gold Threadwork Kurti",
       "og_price": 3199,
       "display_price": 2399,
@@ -1719,7 +1719,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 78,
+      "id": "cc08",
       "name": "Floral Printed Chikankari Kurti",
       "og_price": 2599,
       "display_price": 1899,
@@ -1741,7 +1741,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 79,
+      "id": "cc09",
       "name": "Mustard Yellow Khadi Kurti",
       "og_price": 2399,
       "display_price": 1799,
@@ -1763,7 +1763,7 @@
       "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
     },
     {
-      "id": 80,
+      "id": "cc10",
       "name": "Pink Ombre Chikankari Kurti",
       "og_price": 2899,
       "display_price": 2199,
