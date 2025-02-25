@@ -172,7 +172,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="/privacy-policy" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Privacy Policy</a>
-              <a href="/terms" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Terms of Service</a>
+              <a href="/terms-of-service" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Terms of Service</a>
               {/* <a href="/sitemap" className="hover:text-customDeepPlum dark:hover:text-darkAccent transition-colors duration-300">Sitemap</a> */}
             </div>
           </div>

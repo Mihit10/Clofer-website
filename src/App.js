@@ -7,6 +7,11 @@ import OurStory from "./pages/OurStory";
 import StorePolicy from "./pages/StorePolicy";
 import ReturnExchange from "./pages/ReturnExchange";
 import InternationalShipping from "./pages/InternationalShipping";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ContactUs from "./pages/ContactUs";
+import ShippingPolicy from "./pages/ShippingPolicy";
+import SizeGuide from "./pages/SizeGuide";
 import ProductPage from "./pages/ProductPage";
 
 import ShortKurti from "./pages/ShortKurti";
@@ -39,6 +44,11 @@ const App = () => {
           <Route path="/store-policy" element={<StorePolicy />} />
           <Route path="/return-exchange-policy" element={<ReturnExchange />} />
           <Route path="/international-orders" element={<InternationalShipping />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/shipping-policy" element={<ShippingPolicy />} />
+          <Route path="/size-guide" element={<SizeGuide />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
           {/* navbar */}
           <Route path="/short-kurti" element={<ShortKurti />} />
