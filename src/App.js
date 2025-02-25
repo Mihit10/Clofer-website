@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "react-scroll-to-top";
+import ScrollerOnTop from "./ScrollerOnTop";
 
 import Home from "./pages/Home";
 import OurStory from "./pages/OurStory";
@@ -30,7 +31,8 @@ import CategoryNavbar from "./components/CategoryNavbar"
 const App = () => {
   return (
     <Router>
-      <ScrollToTop />
+      <ScrollerOnTop />
+      <ScrollToTop smooth color="#5D3A6B" />
       <div className="bg-white dark:bg-darkBg min-h-screen">
       <PreHeader />
       <Header />

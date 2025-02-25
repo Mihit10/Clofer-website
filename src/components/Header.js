@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import React Router navigation
 import { Search, MessageCircle, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion"; // For animations
+import { motion, AnimatePresence } from "framer-motion";
 
 const logo = "/assets/clofer_textless_logo.png";
 const logo_inv = "/assets/clofer_textless_logo_inverted.png";
@@ -9,7 +10,9 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredResults, setFilteredResults] = useState([]);
   const [products, setProducts] = useState([]);
-  const [isSearchOpen, setIsSearchOpen] = useState(false); // Mobile search toggle
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  
+  const navigate = useNavigate(); // React Router navigation function
 
   // Load Products from JSON File
   useEffect(() => {
@@ -39,51 +42,38 @@ const Header = () => {
     }
   };
 
-  // **Fix:** When clicking X, search query should clear properly
-  const handleCloseSearch = () => {
-    setSearchQuery(""); // Clear text
-    setFilteredResults([]); // Remove suggestions
-    setIsSearchOpen(false);
+  // **Navigate to Product Page when a product is selected**
+  const handleSelectProduct = (product) => {
+    setSearchQuery(""); // Clear search bar
+    setFilteredResults([]); // Hide dropdown
+    setIsSearchOpen(false); // Close mobile search
+    navigate(`/bestseller/product/${product.id}`); // Navigate to product page
   };
 
-  // **Fix:** Selecting a product should not show "No products found"
-  const handleSelectProduct = (name) => {
-    setSearchQuery(name);
-    setFilteredResults([]); // Hide dropdown after selection
+  const handleCloseSearch = () => {
+    setSearchQuery(""); // Clear text
+    setFilteredResults([]); // Hide suggestions
+    setIsSearchOpen(false); // Close search box
   };
+  
 
   return (
     <>
       {/* Header */}
       <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText px-6 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-[48px] z-40">
-
         
-        {/* Left Side - Logo & Brand Name */}
+        {/* Left Side - Logo */}
         <div className="flex items-center gap-3">
-        <div className="h-16 md:h-18 transition-all duration-300">
-          {/* Light Mode Logo */}
-            <img
-              src={logo}
-              alt="Clofer Logo"
-              className="h-full block dark:hidden"
-            />
-
-            {/* Dark Mode Logo (Inverted) */}
-            <img
-              src={logo_inv}
-              alt="Clofer Logo Dark Mode"
-              className="h-full hidden dark:block"
-            />
+          <div className="h-16 md:h-18 transition-all duration-300">
+            <img src={logo} alt="Clofer Logo" className="h-full block dark:hidden"/>
+            <img src={logo_inv} alt="Clofer Logo Dark Mode" className="h-full hidden dark:block"/>
           </div>
-
-          <span className="font-callove text-xl md:text-2xl font-semibold">
-            Clofer
-          </span>
+          <span className="font-callove text-xl md:text-2xl font-semibold">Clofer</span>
         </div>
 
-        {/* Right Side - Search Icon & WhatsApp */}
+        {/* Right Side - Search & WhatsApp */}
         <div className="flex items-center gap-4">
-          {/* Search Icon (Visible Only on Mobile) */}
+          {/* Mobile Search Toggle */}
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
             className="block md:hidden p-2 rounded-full bg-customPlum dark:bg-darkAccent text-white dark:text-darkBg transition-all duration-300"
@@ -91,7 +81,7 @@ const Header = () => {
             {isSearchOpen ? <X size={20} /> : <Search size={20} />}
           </button>
 
-          {/* Search Bar (Hidden on Mobile, Visible on Desktop) */}
+          {/* Desktop Search Bar */}
           <div className="relative hidden md:block w-64">
             <input
               type="text"
@@ -102,7 +92,7 @@ const Header = () => {
             />
             <Search className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 dark:text-gray-400" size={18} />
 
-            {/* Search Suggestions (Desktop View) */}
+            {/* Search Suggestions - Desktop */}
             <AnimatePresence>
               {searchQuery && filteredResults.length > 0 && (
                 <motion.div
@@ -115,7 +105,7 @@ const Header = () => {
                     <div
                       key={item.id}
                       className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer text-sm transition-all duration-200"
-                      onClick={() => handleSelectProduct(item.name)}
+                      onClick={() => handleSelectProduct(item)}
                     >
                       {item.name}
                     </div>
@@ -125,7 +115,7 @@ const Header = () => {
             </AnimatePresence>
           </div>
 
-          {/* WhatsApp Icon (With Margin) */}
+          {/* WhatsApp Icon */}
           <a
             href="https://wa.me/919820380401?text=Hey!%20I'm%20visiting%20your%20website%20and%20have%20a%20query."
             target="_blank"
@@ -137,9 +127,9 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Search Bar (Visible Only When Clicked on Mobile) */}
+      {/* Mobile Search Bar */}
       {isSearchOpen && (
-        <div className="w-full px-6 py-2 bg-gray-100 dark:bg-darkBg border-b border-gray-300 dark:border-gray-700 shadow-sm">
+        <div className="w-full px-6 py-2 bg-customLavender dark:bg-darkBg border-b border-gray-300 dark:border-gray-700 shadow-sm">
           <div className="relative">
             <input
               type="text"
@@ -148,8 +138,8 @@ const Header = () => {
               onChange={(e) => handleSearch(e.target.value)}
               className="w-full bg-white dark:bg-gray-900 text-customPlum dark:text-darkText border border-gray-300 dark:border-gray-600 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-customPlum"
             />
-            
-            {/* X Button to Clear Search (Fix: Clears text properly now) */}
+
+            {/* Clear Search Button */}
             {searchQuery && (
               <button
                 onClick={handleCloseSearch}
@@ -159,7 +149,7 @@ const Header = () => {
               </button>
             )}
 
-            {/* Search Suggestions (Mobile View) */}
+            {/* Search Suggestions - Mobile */}
             <AnimatePresence>
               {searchQuery && filteredResults.length > 0 && (
                 <motion.div
@@ -172,7 +162,7 @@ const Header = () => {
                     <div
                       key={item.id}
                       className="px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer text-sm transition-all duration-200"
-                      onClick={() => handleSelectProduct(item.name)}
+                      onClick={() => handleSelectProduct(item)}
                     >
                       {item.name}
                     </div>
