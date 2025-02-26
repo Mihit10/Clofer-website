@@ -141,7 +141,7 @@ I found this on the Clofer website and would love to know more details.`;
                 <p><strong>Fabric:</strong> {product.fabric}</p>
                 <p><strong>Sleeves:</strong> {product.sleeves}</p>
                 <p><strong>Type:</strong> {product.type}</p>
-                <p><strong>Length:</strong> {product.length}</p>
+                {/* <p><strong>Length:</strong> {product.length}</p> */}
                 <p><strong>Category:</strong> {product.category}</p>
                 <p><strong>Additional Details:</strong> {product.additional_details}</p>
               </div>

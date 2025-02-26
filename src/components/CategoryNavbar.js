@@ -58,18 +58,18 @@ const CategoryNavbar = () => {
       icon: '/assets/clofer_navigation_icon/clofer_luxe.png',
       darkIcon: '/assets/clofer_navigation_icon/dark_clofer_luxe.png'
     },
-    { 
-      id: 'bottoms', 
-      name: 'Bottoms', 
-      icon: '/assets/clofer_navigation_icon/bottoms.png',
-      darkIcon: '/assets/clofer_navigation_icon/dark_bottoms.png'
-    },
-    { 
-      id: 'clofer-crestline', 
-      name: 'Clofer Crestline', 
-      icon: '/assets/clofer_navigation_icon/clofer_crestline.png',
-      darkIcon: '/assets/clofer_navigation_icon/dark_clofer_crestline.png'
-    },
+    // { 
+    //   id: 'bottoms', 
+    //   name: 'Bottoms', 
+    //   icon: '/assets/clofer_navigation_icon/bottoms.png',
+    //   darkIcon: '/assets/clofer_navigation_icon/dark_bottoms.png'
+    // },
+    // { 
+    //   id: 'clofer-crestline', 
+    //   name: 'Clofer Crestline', 
+    //   icon: '/assets/clofer_navigation_icon/clofer_crestline.png',
+    //   darkIcon: '/assets/clofer_navigation_icon/dark_clofer_crestline.png'
+    // },
   ];
 
   // Check scroll position to determine if arrows should be visible

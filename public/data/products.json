@@ -20,7 +20,7 @@
         "sleeves": "3/4th Sleeves",
         "type": " Kurti Set With dupatta",
         "length": "NA",
-        "category": "Women Ethnic Wear",
+        "category": "Kurti Set",
         "size": ["M", "L", "XL", "XXL","XXXL"],
         "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
       },
@@ -41,7 +41,7 @@
           "/assets/bestseller/nk5.jpg"
         ],
         "fabric": "Rayon",
-        "sleeves": "Sleevless",
+        "sleeves": "Sleeveless",
         "type": "Straight Kurti",
         "length": "Nil",
         "category": "Long Kurti",
@@ -50,25 +50,26 @@
       },
       {
         "id": "bs03",
-        "name": "Embroidered Silk Tunic",
+        "name": "Modal Heavy Work Big Buta Set",
         "og_price": 2999,
-        "display_price": 2199,
-        "description": "A luxurious silk tunic featuring delicate thread embroidery.",
-        "product_detail": "Crafted with premium silk fabric, lightweight and breathable.",
-        "tags": ["silk", "tunic", "embroidered", "ethnic"],
-        "colors": ["Maroon", "Black"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0006.jpg",
+        "display_price": 2399,
+        "description": "A luxurious modal set with heavy buta work.",
+        "product_detail": "Crafted with premium modal fabric, lightweight and breathable.",
+        "tags": ["modal", "set", "heavy", "big buta"],
+        "colors": ["Purple", "Black", "Red", "Pink", "Blue", "Other"],
+        "img_path": "/assets/bestseller/ms1.jpg",
         "additional_images": [
-          "/assets/products/embroidered_silk_tunic_1.jpg",
-          "/assets/products/embroidered_silk_tunic_2.jpg"
+          "/assets/bestseller/ms2.jpg",
+          "/assets/bestseller/ms3.jpg",
+          "/assets/bestseller/ms4.jpg"
         ],
-        "fabric": "100% Pure Cotton",
+        "fabric": "Modal",
         "sleeves": "3/4th Sleeves",
         "type": "Straight Kurti",
         "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
+        "category": "Kurti Set",
+        "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+        "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
       },
       {
         "id": "bs04",
