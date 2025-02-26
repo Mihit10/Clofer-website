@@ -59,7 +59,7 @@
         "colors": ["Purple", "Black", "Red", "Pink", "Blue", "Other"],
         "img_path": "/assets/bestseller/ms1.jpg",
         "additional_images": [
-          "/assets/bestseller/ms2.jpg",
+        
           "/assets/bestseller/ms3.jpg",
           "/assets/bestseller/ms4.jpg"
         ],
