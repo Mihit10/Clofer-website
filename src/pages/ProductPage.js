@@ -151,9 +151,22 @@ I found this on the Clofer website and would love to know more details.`;
             <p className="mt-4 text-sm text-gray-600 dark:text-gray-300 italic">
               Colors may slightly vary due to different screen resolutions.
             </p>
+            <div className="mt-6">
+              <a
+                href="/size-guide"
+                className="relative text-customPlum dark:text-darkAccent font-medium transition-all duration-300 
+                          before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[1.5px] 
+                          before:bg-customPlum dark:before:bg-darkAccent before:transition-all before:duration-300 
+                          hover:before:w-full hover:text-customDeepPlum dark:hover:text-darkText"
+              >
+                Size Guide
+              </a>
+            </div>
+
+
 
             {/* Size Selection */}
-            <div className="mt-6">
+            <div className="mt-3">
               <h5 className="font-medium mb-2">Size: {selectedSize}</h5>
               <div className="flex gap-2">
                 {product.size.map((size, index) => (
