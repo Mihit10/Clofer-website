@@ -32,7 +32,11 @@ const App = () => {
   return (
     <Router>
       <ScrollerOnTop />
-      <ScrollToTop smooth color="#5D3A6B" />
+      <ScrollToTop
+        smooth
+        className="flex items-center justify-center bg-customPlum dark:bg-darkAccent text-white dark:text-darkBg rounded-full shadow-md hover:bg-customDeepPlum dark:hover:bg-darkSubtle transition-all duration-300"
+      />
+
       <div className="bg-white dark:bg-darkBg min-h-screen">
       <PreHeader />
       <Header />
