@@ -13,6 +13,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/ContactUs";
 import ShippingPolicy from "./pages/ShippingPolicy";
 import SizeGuide from "./pages/SizeGuide";
+import Faq from "./pages/Faq";
 import ProductPage from "./pages/ProductPage";
 
 import ShortKurti from "./pages/ShortKurti";
@@ -55,6 +56,7 @@ const App = () => {
           <Route path="/size-guide" element={<SizeGuide />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/faqs" element={<Faq />} />
 
           {/* navbar */}
           <Route path="/short-kurti" element={<ShortKurti />} />
