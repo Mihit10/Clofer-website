@@ -4,7 +4,7 @@
         "id": "bs01",
         "name": "Dobby Cotton Set",
         "og_price": 3000,
-        "display_price": 1999,
+        "display_price": 2350,
         "description": "Dobby Cotton Set with Dupatta.",
         "product_detail": "Dobby Cotton Set with Pant, Kurti and Dupatta.Perfect for everyday workwear. Comfortable and very soft on the skin",
         "tags": ["chikankari", "cotton", "kurti", "set", "dobby", "dupatta"],
@@ -94,29 +94,32 @@
         "length": "Calf Length",
         "category": "Women Ethnic Wear",
         "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
+        "additional_details": "Minor alteration may be required, There is no margin available. More colours available"
       },
       {
         "id": "bs05",
-        "name": "Royal Blue Anarkali Kurti",
-        "og_price": 3499,
-        "display_price": 2599,
-        "description": "A royal blue Anarkali kurti with mirror work detailing.",
-        "product_detail": "Long flowy silhouette with mirror embroidery.",
-        "tags": ["anarkali", "royal blue", "mirror work", "festive wear"],
-        "colors": ["Royal Blue", "Deep Green"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0014.jpg",
+        "name": "Georgette Mirror Work Set",
+        "og_price": 3000,
+        "display_price": 1850,
+        "description": "A 3 pc georgette set with dupatta.",
+        "product_detail": "Perfect festive wear set.",
+        "tags": ["georgette", "set", "mirror work", "festive wear","dupatta"],
+        "colors": [" Blue", "Green","Yellow","Pink","purple","other"],
+        "img_path": "/assets/bestseller/gws1.jpg",
         "additional_images": [
-          "/assets/products/royal_blue_anarkali_1.jpg",
-          "/assets/products/royal_blue_anarkali_2.jpg"
+          "/assets/bestseller/gws2.jpg",
+          "/assets/bestseller/gws3.jpg",
+          "/assets/bestseller/gws4.jpg",
+          "/assets/bestseller/gws5.jpg",
+          "/assets/bestseller/gws.jpg"
         ],
-        "fabric": "100% Pure Cotton",
+        "fabric": "Georgette",
         "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
+        "type": "Kurti Set With Dupatta",
         "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
+        "category": "Kurti Set",
+        "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+        "additional_details": "Inner available at an extra cost, Minor alteration may be required, There is no margin available. More colours available"
       },
       {
         "id": "bs06",
@@ -140,97 +143,10 @@
         "size": ["S", "M", "L", "XL", "XXL"],
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
       },
-      {
-        "id": "bs07",
-        "name": "Black and Gold Threadwork Kurti",
-        "og_price": 3199,
-        "display_price": 2399,
-        "description": "A statement black kurti with intricate gold thread embroidery.",
-        "product_detail": "Luxurious rayon fabric, perfect for evening wear.",
-        "tags": ["black", "gold", "threadwork", "party wear"],
-        "colors": ["Black"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0019.jpg",
-        "additional_images": [
-          "/assets/products/black_gold_threadwork_1.jpg",
-          "/assets/products/black_gold_threadwork_2.jpg"
-        ],
-        "fabric": "100% Pure Cotton",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
-        "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
-      },
-      {
-        "id": "bs08",
-        "name": "Floral Printed Chikankari Kurti",
-        "og_price": 2599,
-        "display_price": 1899,
-        "description": "A fusion of floral prints and traditional Chikankari embroidery.",
-        "product_detail": "Soft cambric cotton fabric, vibrant and lightweight.",
-        "tags": ["floral", "printed kurti", "chikankari", "cambric cotton"],
-        "colors": ["Floral White", "Pastel Yellow"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0022.jpg",
-        "additional_images": [
-          "/assets/products/floral_printed_kurti_1.jpg",
-          "/assets/products/floral_printed_kurti_2.jpg"
-        ],
-        "fabric": "100% Pure Cotton",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
-        "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
-      },
-      {
-        "id": "bs09",
-        "name": "Mustard Yellow Khadi Kurti",
-        "og_price": 2399,
-        "display_price": 1799,
-        "description": "Earthy mustard khadi kurti with minimalistic embroidery.",
-        "product_detail": "Handwoven khadi fabric, breathable and eco-friendly.",
-        "tags": ["khadi", "mustard yellow", "handwoven", "sustainable"],
-        "colors": ["Mustard Yellow", "Olive Green"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0027.jpg",
-        "additional_images": [
-          "/assets/products/mustard_khadi_kurti_1.jpg",
-          "/assets/products/mustard_khadi_kurti_2.jpg"
-        ],
-        "fabric": "100% Pure Cotton",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
-        "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
-      },
-      {
-        "id": "bs10",
-        "name": "Pink Ombre Chikankari Kurti",
-        "og_price": 2899,
-        "display_price": 2199,
-        "description": "A stunning pink ombre kurti with fine Chikankari work.",
-        "product_detail": "Gradient-dyed cotton fabric with elegant embroidery.",
-        "tags": ["ombre", "chikankari", "pink kurti", "cotton"],
-        "colors": ["Pink Ombre", "Lavender Ombre"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0007.jpg",
-        "additional_images": [
-          "/assets/products/pink_ombre_kurti_1.jpg",
-          "/assets/products/pink_ombre_kurti_2.jpg"
-        ],
-        "fabric": "100% Pure Cotton",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
-        "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
-      }
-    ],
+      
+   
   
-  "new_arrivals": [
+  "new_arrivals" ,
     {
       "id": "na01",
       "name": "Chikankari Cotton Kurti",
