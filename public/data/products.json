@@ -94,29 +94,32 @@
         "length": "Calf Length",
         "category": "Women Ethnic Wear",
         "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
+        "additional_details": "Minor alteration may be required, There is no margin available. More colours available"
       },
       {
         "id": "bs05",
-        "name": "Royal Blue Anarkali Kurti",
-        "og_price": 3499,
-        "display_price": 2599,
-        "description": "A royal blue Anarkali kurti with mirror work detailing.",
-        "product_detail": "Long flowy silhouette with mirror embroidery.",
-        "tags": ["anarkali", "royal blue", "mirror work", "festive wear"],
-        "colors": ["Royal Blue", "Deep Green"],
-        "img_path": "/assets/SlideShow/IMG-20250213-WA0014.jpg",
+        "name": "Georgette Mirror Work Set",
+        "og_price": 3000,
+        "display_price": 1850,
+        "description": "A 3 pc georgette set with dupatta.",
+        "product_detail": "Perfect festive wear set.",
+        "tags": ["georgette", "set", "mirror work", "festive wear","dupatta"],
+        "colors": [" Blue", "Green","Yellow","Pink","purple","other"],
+        "img_path": "/assets/bestseller/gws1.jpg",
         "additional_images": [
-          "/assets/products/royal_blue_anarkali_1.jpg",
-          "/assets/products/royal_blue_anarkali_2.jpg"
+          "/assets/bestseller/gws2.jpg",
+          "/assets/bestseller/gws3.jpg",
+          "/assets/bestseller/gws4.jpg",
+          "/assets/bestseller/gws5.jpg",
+          "/assets/bestseller/gws.jpg"
         ],
-        "fabric": "100% Pure Cotton",
+        "fabric": "Georgette",
         "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
+        "type": "Kurti Set With Dupatta",
         "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL"],
-        "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
+        "category": "Kurti Set",
+        "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+        "additional_details": "Inner available at an extra cost, Minor alteration may be required, There is no margin available. More colours available"
       },
       {
         "id": "bs06",
