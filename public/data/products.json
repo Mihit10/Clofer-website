@@ -142,11 +142,12 @@
         "category": "Women Ethnic Wear",
         "size": ["S", "M", "L", "XL", "XXL"],
         "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
-      },
+      }
+    ],
       
    
   
-  "new_arrivals" ,
+  "new_arrivals" : [
     {
       "id": "na01",
       "name": "Chikankari Cotton Kurti",
