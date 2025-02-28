@@ -6,9 +6,9 @@ import { cn } from "../lib/utils"; // Correct relative path
 // Dummy review data (replace with real reviews later)
 const reviews = [
   {
-    name: "Anita",
+    name: "Tanvi Thakkar",
     username: "@anita",
-    body: "The intricate chickankari detailing is mesmerizing – truly a work of art.",
+    body: "Clofer is the best brand for chikankari😍😍 and the material is also pure.❤Clofer can be trusted blindly and I'm really very much glad to see Clofer with new update everyday👀 I am very sure this efforts will turn into some big achievement #cloferisbest💗🧿",
     img: "https://avatar.vercel.sh/anita",
   },
   {
@@ -69,9 +69,9 @@ const ReviewCard = ({ img, name, username, body }) => {
             <figcaption className="text-sm font-medium dark:text-darkText">
               {name}
             </figcaption>
-            <p className="text-xs font-medium dark:text-darkText/70">
+            {/* <p className="text-xs font-medium dark:text-darkText/70">
               {username}
-            </p>
+            </p> */}
           </div>
         </div>
         <blockquote className="mt-2 text-sm text-customPlum dark:text-darkText">
