@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-darkBg">
       <Helmet>
-        <title>Shop the Best Chikankari Kurtis – Clofer</title>
+        {/* <title>Shop the Best Chikankari Kurtis – Clofer</title> */}
         <meta name="description" content="Discover authentic Chikankari kurtis, sets, and more at Clofer. Shop now for premium quality fashion!" />
 
         {/* Open Graph Meta Tags for Social Sharing */}
