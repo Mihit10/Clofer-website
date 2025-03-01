@@ -168,7 +168,7 @@ I found this on the Clofer website and would love to know more details.`;
             {/* Size Selection */}
             <div className="mt-3">
               <h5 className="font-medium mb-2">Size: {selectedSize}</h5>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {product.size.map((size, index) => (
                   <button
                     key={index}
@@ -186,7 +186,7 @@ I found this on the Clofer website and would love to know more details.`;
             {/* Color Selection */}
             <div className="mt-6">
               <h5 className="font-medium mb-2">Color: {selectedColor}</h5>
-              <div className="flex gap-2">
+              <div className="flex flex-wrap gap-2">
                 {product.colors.map((color, index) => (
                   <button
                     key={index}
