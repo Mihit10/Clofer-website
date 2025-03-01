@@ -20,7 +20,7 @@ const reviews = [
   {
     name: "Pallavi",
     username: "@pallavi",
-    body: "I brought a kurti from Clofer. I love the attention to packaging😍 it was an experiance unboxing the product and the quality of kurti was very good. Love clofer🫶🫶❤️❤️",
+    body: "I brought a kurti from Clofer. I love the attention to packaging😍 it was an experience unboxing the product and the quality of kurti was very good. Love clofer🫶🫶❤️❤️",
     img: "https://avatar.vercel.sh/priya",
   },
   {

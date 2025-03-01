@@ -99,7 +99,7 @@ I found this on the Clofer website and would love to know more details.`;
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={`${product.name} - Clofer`} />
       <meta property="og:description" content={product.description} />
-      <meta property="og:image" content={`${window.location.origin}${product.img_path.replace("src/assets/", "/assets/")}`} />
+      <meta property="og:image" content={`https://www.shopclofer.in/assets/${product.img_path.replace("src/assets/", "")}`} />
       <meta property="og:url" content={window.location.href} />
       <meta property="og:type" content="product" />
 
@@ -107,9 +107,9 @@ I found this on the Clofer website and would love to know more details.`;
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={`${product.name} - Clofer`} />
       <meta name="twitter:description" content={product.description} />
-      <meta name="twitter:image" content={`${window.location.origin}${product.img_path.replace("src/assets/", "/assets/")}`} />
+      <meta name="twitter:image" content={`https://www.shopclofer.in/assets/${product.img_path.replace("src/assets/", "")}`} />
     </Helmet>
-    
+
     <section className="py-12 md:py-20 bg-white dark:bg-darkBg text-customPlum dark:text-darkText">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

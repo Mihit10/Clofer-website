@@ -24,28 +24,45 @@ module.exports = {
         darkAccent: "#C8A06C", // Gold Accent for highlights
         darkSubtle: "#4E2A6E", // Deep Lavender for subtle contrast
       },
-	  keyframes: {
-		marquee: {
-			from: {
-				transform: 'translateX(0)'
-			},
-			to: {
-				transform: 'translateX(calc(-100% - var(--gap)))'
-			}
-		},
-		'marquee-vertical': {
-			from: {
-				transform: 'translateY(0)'
-			},
-			to: {
-				transform: 'translateY(calc(-100% - var(--gap)))'
-			}
-		}
-	},
-	animation: {
-		marquee: 'marquee var(--duration) infinite linear',
-		'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
-	}
+      keyframes: {
+        marquee: {
+          from: {
+            transform: 'translateX(0)'
+          },
+          to: {
+            transform: 'translateX(calc(-100% - var(--gap)))'
+          }
+        },
+        marqueeSlow: { // New slower marquee effect
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" }
+        },
+        'marquee-vertical': {
+          from: {
+            transform: 'translateY(0)'
+          },
+          to: {
+            transform: 'translateY(calc(-100% - var(--gap)))'
+          }
+        },
+        // Add these new keyframes for the announcement bar
+        marqueeAnnouncement: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' }
+        },
+        marqueeAnnouncement2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' }
+        }
+      },
+      animation: {
+        marquee: 'marquee var(--duration) infinite linear',
+        marqueeSlow: "marqueeSlow 40s linear infinite", // Slower scrolling
+        'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+        // Add these new animations for the announcement bar
+        marquee: 'marqueeAnnouncement 25s linear infinite',
+        marquee2: 'marqueeAnnouncement2 25s linear infinite'
+      }
     },
   },
   plugins: [],

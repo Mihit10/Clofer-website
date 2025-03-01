@@ -27,8 +27,9 @@ import CloferCrestline from "./pages/CloferCrestline";
 
 // import PreHeader from "./components/PreHeader"
 import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Announcement from "./components/Announcement";
 import CategoryNavbar from "./components/CategoryNavbar"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
       <div className="bg-white dark:bg-darkBg min-h-screen">
       {/* <PreHeader /> */}
       <Header />
+      <Announcement />
       <CategoryNavbar />
 
 
