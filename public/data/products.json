@@ -481,25 +481,28 @@
   "clofer_luxe": [
     {
       "id": "cl01",
-      "name": "Chikankari Cotton Kurti",
-      "og_price": 1999,
-      "display_price": 1499,
-      "description": "Elegant hand-embroidered Chikankari kurti.",
-      "product_detail": "Made from 100% cotton, this kurti is perfect for summer wear.",
-      "tags": ["chikankari", "cotton", "kurti", "hand-embroidered"],
-      "colors": ["White", "Blue", "Pink"],
-      "img_path": "/assets/SlideShow/IMG-20250213-WA0002.jpg",
+      "name": "Muslin A-Line Pom Pom Full Length Dress",
+      "og_price": 5999,
+      "display_price": 4500,
+      "description": "Muslin ki nazakat, A-line ka andaaz—Pom Pom ke saath yeh dress laaye masti aur nawaz.",
+      "product_detail": "A luxury statement peice.",
+      "tags": ["chikankari", "muslin", "kurti", "luxury"],
+      "colors": ["White", "Blue", "Pink","Other"],
+      "img_path": "/assets/luxe/cluxe1.jpg",
       "additional_images": [
-        "/assets/products/chikankari_cotton_kurti_1.jpg",
-        "/assets/products/chikankari_cotton_kurti_2.jpg"
+        "/assets/luxe/cluxe2.jpg",
+        "/assets/luxe/cluxe3.jpg",
+        "/assets/luxe/cluxe4.jpg",
+        "/assets/luxe/cluxe5.jpg",
+        "/assets/luxe/cluxe6.jpg"
       ],
-      "fabric": "100% Pure Cotton",
+      "fabric": "Muslin",
       "sleeves": "3/4th Sleeves",
-      "type": "Straight Kurti",
+      "type": "A line Kurti",
       "length": "Calf Length",
-      "category": "Women Ethnic Wear",
-      "size": ["S", "M", "L", "XL", "XXL"],
-      "additional_details": "This kurti is pre-washed and pre-shrunk to ensure long-lasting quality. Gentle hand wash recommended for best results."
+      "category": "Clofer Luxe",
+      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "additional_details": "More colours and sizes available."
     },
     {
       "id": "cl02",
