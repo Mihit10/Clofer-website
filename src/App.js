@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import ScrollerOnTop from "./ScrollerOnTop";
+import { HelmetProvider } from "react-helmet-async";
 
 import Home from "./pages/Home";
 import OurStory from "./pages/OurStory";
@@ -32,6 +33,7 @@ import CategoryNavbar from "./components/CategoryNavbar"
 
 const App = () => {
   return (
+    <HelmetProvider>
     <Router>
       <ScrollerOnTop />
       <ScrollToTop
@@ -83,6 +85,7 @@ const App = () => {
       <Footer />
       </div>
     </Router>
+    </HelmetProvider>
   );
 };
 
