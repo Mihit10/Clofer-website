@@ -15,6 +15,7 @@ import ShippingPolicy from "./pages/ShippingPolicy";
 import SizeGuide from "./pages/SizeGuide";
 import Faq from "./pages/Faq";
 import ProductPage from "./pages/ProductPage";
+import NotFound from "./pages/NotFound";
 
 import ShortKurti from "./pages/ShortKurti";
 import LongKurti from "./pages/LongKurti";
@@ -76,7 +77,7 @@ const App = () => {
           <Route path="/bottoms/product/:id" element={<ProductPage />} />
           <Route path="/clofer-crestline/product/:id" element={<ProductPage />} />
 
-          {/* Future routes for other pages can be added here */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       
       <Footer />
