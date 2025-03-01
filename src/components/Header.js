@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import React Router navigation
 import { Search, MessageCircle, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import PreHeader from "./PreHeader"
+
 
 const logo = "/assets/clofer_textless_logo.png";
 const logo_inv = "/assets/clofer_textless_logo_inverted.png";
@@ -59,8 +61,9 @@ const Header = () => {
 
   return (
     <>
+      <PreHeader />
       {/* Header */}
-      <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText px-6 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-[48px] z-40">
+      <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText md:px-6 px-3 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-[48px] z-40">
         
         {/* Left Side - Logo */}
         <div className="flex items-center gap-3">
