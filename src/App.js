@@ -80,6 +80,7 @@ const App = () => {
           <Route path="/clofer-luxe/product/:id" element={<ProductPage />} />
           <Route path="/bottoms/product/:id" element={<ProductPage />} />
           <Route path="/clofer-crestline/product/:id" element={<ProductPage />} />
+          <Route path="/product/:id" element={<ProductPage />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

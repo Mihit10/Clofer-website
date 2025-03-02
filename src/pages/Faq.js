@@ -53,7 +53,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-12 md:py-16 text-center">
+    <div className="max-w-3xl mx-auto px-6 py-12 md:py-16">
       {/* Heading */}
       <div className="text-center mb-6">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-playfair font-semibold tracking-wide text-customPlum dark:text-darkText">
@@ -68,13 +68,13 @@ const Faq = () => {
         {faqData.map((item, index) => (
           <div
             key={index}
-            className="border border-customPlum dark:border-darkAccent bg-customLavender dark:bg-darkBg p-4 md:p-6 rounded-2xl shadow-md text-left"
+            className="border border-customPlum dark:border-darkAccent bg-customLavender dark:bg-darkBg p-4 md:p-6 rounded-2xl shadow-md"
           >
             <button
               onClick={() => toggleFaq(index)}
-              className="w-full flex justify-between items-center text-customPlum dark:text-darkAccent font-semibold text-lg md:text-xl"
+              className="w-full flex justify-between items-center text-customPlum dark:text-darkAccent font-semibold text-left text-lg md:text-xl"
             >
-              {item.question}
+              <span className="flex-1 text-left">{item.question}</span>
               {openIndex === index ? (
                 <FaChevronUp className="text-customPlum dark:text-darkAccent" />
               ) : (
@@ -85,11 +85,11 @@ const Faq = () => {
             <AnimatePresence>
               {openIndex === index && (
                 <motion.div
-                  className="mt-2 text-base md:text-lg font-poppins text-gray-800 dark:text-gray-300 leading-relaxed"
+                  className="mt-2 text-sm md:text-lg font-poppins text-gray-800 dark:text-gray-300 leading-relaxed text-left"
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
-                  transition={{ duration: 0.3 }}
+                  transition={{ duration: 0.2 }}
                 >
                   {item.answer}
                 </motion.div>

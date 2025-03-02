@@ -21,17 +21,25 @@ const Header = () => {
     fetch("/data/products.json")
       .then((response) => response.json())
       .then((data) => {
-        const allProducts = Object.values(data).flat();
+        const allProducts = Object.entries(data)
+          .filter(([category]) => !["bottoms", "clofer_crestline"].includes(category.toLowerCase())) // Fix the category name
+          .map(([, items]) => items)
+          .flat();
+  
+        console.log("Filtered Products:", allProducts); // ✅ Check if unwanted products are removed
         setProducts(allProducts);
       })
       .catch((error) => console.error("Error loading product data:", error));
   }, []);
+  
+  
+
 
   // Search function
   const handleSearch = (query) => {
     setSearchQuery(query);
     const lowerCaseQuery = query.toLowerCase();
-
+  
     if (lowerCaseQuery.length > 0) {
       const results = products.filter(
         (item) =>
@@ -43,13 +51,16 @@ const Header = () => {
       setFilteredResults([]);
     }
   };
+  
+  
+  
 
   // **Navigate to Product Page when a product is selected**
   const handleSelectProduct = (product) => {
     setSearchQuery(""); // Clear search bar
     setFilteredResults([]); // Hide dropdown
     setIsSearchOpen(false); // Close mobile search
-    navigate(`/bestseller/product/${product.id}`); // Navigate to product page
+    navigate(`/product/${product.id}`); // Navigate to product page
   };
 
   const handleCloseSearch = () => {
@@ -66,6 +77,7 @@ const Header = () => {
       <header className="bg-white dark:bg-darkSubtle text-customPlum dark:text-darkText md:px-6 px-3 py-1 flex items-center justify-between shadow-lg border-b border-gray-300 dark:border-gray-700 sticky top-[48px] z-40">
         
         {/* Left Side - Logo */}
+        <a href="/" >
         <div className="flex items-center gap-3">
           <div className="h-16 md:h-18 transition-all duration-300">
             <img src={logo} alt="Clofer Logo" className="h-full block dark:hidden"/>
@@ -73,6 +85,7 @@ const Header = () => {
           </div>
           <span className="font-callove text-xl md:text-2xl font-semibold">Clofer</span>
         </div>
+        </a>
 
         {/* Right Side - Search & WhatsApp */}
         <div className="flex items-center gap-4">
@@ -132,7 +145,7 @@ const Header = () => {
 
       {/* Mobile Search Bar */}
       {isSearchOpen && (
-        <div className="w-full px-6 py-2 bg-customLavender dark:bg-darkBg border-b border-gray-300 dark:border-gray-700 shadow-sm">
+        <div className="w-full px-6 py-2 bg-customLavender dark:bg-darkBg dark:text-darkText border-b border-gray-300 dark:border-gray-700 shadow-sm">
           <div className="relative">
             <input
               type="text"

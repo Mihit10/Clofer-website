@@ -91,6 +91,26 @@ const SizeGuide = () => {
           <span className="italic">Thank you for understanding! 🙏</span>
         </p>
       </motion.div>
+
+      {/* Size Guide Image */}
+      <motion.div
+        className="mt-8 flex justify-center"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.7 }}
+      >
+        <img
+          src={"/assets/sizeguide/light_size_guide.png"}
+          alt="Kurti Size Guide"
+          className="w-full max-w-sm rounded-2xl shadow-lg border border-customPlum dark:border-darkAccent dark:hidden"
+        />
+        <img
+          src={"/assets/sizeguide/dark_size_guide.png"}
+          alt="Kurti Size Guide"
+          className="w-full max-w-sm rounded-2xl shadow-lg border border-customPlum dark:border-darkAccent dark:block hidden"
+        />
+      </motion.div>
+
     </div>
   );
 };
