@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // Function to dynamically load images from the folder
 const importAll = (r) => r.keys().map(r);
-const images = importAll(require.context("../SlideShow", false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context("../SlideShowNew", false, /\.(png|jpe?g|svg)$/));
 
 const SlideShow = () => {
   const [isPaused, setIsPaused] = useState(false);
