@@ -29,6 +29,11 @@ const Home = () => {
         <meta name="twitter:image" content={`${window.location.origin}/assets/clofer_logo_circle.png`} />
       </Helmet>
 
+      {/* SEO  */}
+      <h1 className="sr-only">
+        Clofer - Premium Chikankari Kurtis & Stylish Women's Wear Online in India
+      </h1>
+
       {/* Slideshow Section */}
       <SlideShow />
       <BestSeller />
