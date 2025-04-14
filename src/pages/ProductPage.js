@@ -85,8 +85,8 @@ I am interested in the ${product.name} in the color ${selectedColor} (Size: ${se
 I found this on the Clofer website and would love to know more details.`;
   
     navigator.clipboard.writeText(message).then(() => {
-      alert("Message copied! Now paste it in Instagram chat.");
-      window.open("https://www.instagram.com/direct/t/17849702420955391", "_blank");
+      alert("Message copied! Please open DM's and paste it in our Instagram chat.");
+      window.open("https://www.instagram.com/clofer.in?igsh=bWNydDRoa3lmcGZi", "_blank");
     });
   };
 
