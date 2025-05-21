@@ -1,131 +1,241 @@
 {
-    "bestsellers": [
-      {
-        "id": "bs01",
-        "name": "Dobby Cotton Set",
-        "og_price": 3000,
-        "display_price": 2350,
-        "description": "DOBBY cotton ki shaan, dupatte ka mehmaan—yeh set laaye har din ek naya utsah ka toofan.",
-        "product_detail": "Dobby Cotton Set with Pant, Kurti and Dupatta.Perfect for everyday workwear. Comfortable and very soft on the skin",
-        "tags": ["chikankari", "cotton", "kurti", "set", "dobby", "dupatta"],
-        "colors": ["White", "Blue", "Pink", "Yellow","Mint Green","Beige","Other"],
-        "img_path": "/assets/bestseller/bsdcs1.jpg",
-        "additional_images": [
-          "/assets/bestseller/bsdc2.jpg",
-          "/assets/bestseller/bsdc3.jpg",
-          "/assets/bestseller/bsdc4.jpg",
-          "/assets/bestseller/bsdc5.jpg"
-        ],
-        "fabric": "Dobby Cotton",
-        "sleeves": "3/4th Sleeves",
-        "type": " Kurti Set With dupatta",
-        "length": "NA",
-        "category": "Kurti Set",
-        "size": ["M", "L", "XL", "XXL","XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
-      },
-      {
-        "id": "bs02",
-        "name": "Noodle Strap Kurti",
-        "og_price": 2499,
-        "display_price": 1750,
-        "description": "Noodle straps ka nazakat, bestseller ka ehsaas—yeh kurti de har nazar ko ek naya alfaaz.",
-        "product_detail": "A noodle strap kurti is a stylish and modern variation of the traditional kurti, featuring thin spaghetti-like straps instead of regular sleeves. It offers a chic and elegant look, making it perfect for casual outings, festive occasions, or summer wear.",
-        "tags": ["noodlestrap", "kurti", "sleevless", "spaghetti"],
-        "colors": ["Blue", "Pink", "Yellow", "Green", "Red", "Black", "Other"],
-        "img_path": "/assets/bestseller/nk1.jpg",
-        "additional_images": [
-          "/assets/bestseller/nk2.jpg",
-          "/assets/bestseller/nk3.jpg",
-          "/assets/bestseller/nk4.jpg",
-          "/assets/bestseller/nk5.jpg"
-        ],
-        "fabric": "Rayon",
-        "sleeves": "Sleeveless",
-        "type": "Straight Kurti",
-        "length": "Nil",
-        "category": "Long Kurti",
-        "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
-      },
-      {
-        "id": "bs03",
-        "name": "Modal Heavy Work Big Buta Set",
-        "og_price": 2999,
-        "display_price": 2399,
-        "description": "Modal ki mulayamita, heavy work ka noor—yeh kurti set laaye har adaah mein ek naya suroor.",
-        "product_detail": "Crafted with premium modal fabric, lightweight and breathable.",
-        "tags": ["modal", "set", "heavy", "big buta"],
-        "colors": ["Purple", "Black", "Red", "Pink", "Blue", "Other"],
-        "img_path": "/assets/bestseller/ms1.jpg",
-        "additional_images": [
-        
-          "/assets/bestseller/ms3.jpg",
-          "/assets/bestseller/ms4.jpg"
-        ],
-        "fabric": "Modal",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti",
-        "length": "Calf Length",
-        "category": "Kurti Set",
-        "size": ["S", "M", "L", "XL", "XXL","XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
-      },
-      {
-        "id": "bs04",
-        "name": "Modal Work Set",
-        "og_price": 2699,
-        "display_price": 2300,
-        "description": "Modal ki narmiyan, kaarigari ka shaan—yeh work set banaye har din mehmaan.",
-        "product_detail": "Made from premium modal for ultimate comfort.",
-        "tags": ["chikankari", "modal", "roopal", "mridul"],
-        "colors": ["Red", "Black", "Navy Blue", "Other"],
-        "img_path": "/assets/bestseller/mss11.jpg",
-        "additional_images": [
-          "/assets/bestseller/mss1.jpg",
-          "/assets/bestseller/mss2.jpg",
-          "/assets/bestseller/mss3.jpg",
-          "/assets/bestseller/mss4.jpg"
-          
-        ],
-        "fabric": "Modal",
-        "sleeves": "3/4th Sleeves",
-        "type": "Straight Kurti Set",
-        "length": "Calf Length",
-        "category": "Women Ethnic Wear",
-        "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
-        "additional_details": "Minor alteration may be required, There is no margin available. More colours available"
-      },
-      {
-        "id": "bs05",
-        "name": "Georgette Mirror Work Set",
-        "og_price": 3000,
-        "display_price": 1850,
-        "description": "Georgette ki chamak, mirror ka jadoo — Is set mein hai khushiyon ka saath, har pal hai naya rang bhadoo.",
-        "product_detail": "A 3 pc georgette set with dupatta, Perfect festive wear set.",
-        "tags": ["georgette", "set", "mirror work", "festive wear","dupatta"],
-        "colors": [" Blue", "Green","Yellow","Pink","purple","other"],
-        "img_path": "/assets/bestseller/gws1.jpg",
-        "additional_images": [
-          "/assets/bestseller/gws2.jpg",
-          "/assets/bestseller/gws3.jpg",
-          "/assets/bestseller/gws4.jpg",
-          "/assets/bestseller/gws5.jpg",
-          "/assets/bestseller/gws6.jpg"
-        ],
-        "fabric": "Georgette",
-        "sleeves": "3/4th Sleeves",
-        "type": "Kurti Set With Dupatta",
-        "length": "Calf Length",
-        "category": "Kurti Set",
-        "size": ["S", "M", "L", "XL", "XXL","XXXL"],
-        "additional_details": "Inner available at an extra cost, Minor alteration may be required, There is no margin available. More colours available"
-      }
-    ],
-      
-   
-  
-  "new_arrivals" : [
+  "bestsellers": [
+    {
+      "id": "bs06",
+      "name": "Mal Co-ord Set",
+      "og_price": 2500,
+      "display_price": 1500,
+      "description": "Mal fabric ki softness, style ka perfect mel—yeh coord set banaye har din ko ek dreamy trail",
+      "product_detail": "Mal Coord Set made from premium material . A unique piece from clofer’s collection",
+      "tags": ["mal", "coordset", "pant", "shirt"],
+      "colors": ["Butter Yellow", "Pink", "Green", "Other"],
+      "img_path": "/assets/bestseller/new1.jpg",
+      "additional_images": [
+        "/assets/bestseller/new2.jpg",
+        "/assets/bestseller/new3.jpg",
+        "/assets/bestseller/new4.jpg",
+        "/assets/bestseller/new5.jpg",
+        "/assets/bestseller/new6.jpg"
+      ],
+      "fabric": "Mal",
+      "sleeves": "3/4th Sleeves",
+      "type": " Kurti Set With dupatta",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
+      "id": "bs07",
+      "name": "Rayon Set",
+      "og_price": 3000,
+      "display_price": 1700,
+      "description": "Rayon ki softi si baat, style mein hai khaas baat—yeh set banaye har roz ek nayi shuruaat",
+      "product_detail": " Rayon Set with Pant and Kurti .Perfect for everyday workwear. Comfortable and very soft on the skin",
+      "tags": ["chikankari", "rayon", "kurti", "set", "dupatta"],
+      "colors": ["White", "Blue", "Pink", "Yellow", "Black", "Other"],
+      "img_path": "/assets/bestseller/rayon3.jpg",
+      "additional_images": [
+        "/assets/bestseller/rayon1.jpg",
+        "/assets/bestseller/rayon2.jpg",
+        "/assets/bestseller/rayon5.jpg",
+        "/assets/bestseller/rayon4.jpg"
+      ],
+      "fabric": "Rayon",
+      "sleeves": "3/4th Sleeves",
+      "type": " Kurti Set With dupatta",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
+      "id": "bs08",
+      "name": "Afghani Set",
+      "og_price": 3000,
+      "display_price": 1700,
+      "description": "Afghani andaaz ka jadoo, har chaal mein ho khushbu—yeh set laaye rangon bhari ek nayi dastaan tu.",
+      "product_detail": "Chanderi Soft Fabric Kurti Paired with stylish Afghani Salwar",
+      "tags": ["chikankari", "chanderi", "kurti", "set", "afghani"],
+      "colors": ["White", "Blue", "Pink", "Yellow", "Black", "Other"],
+      "img_path": "/assets/bestseller/afg1.jpg",
+      "additional_images": [
+        "/assets/bestseller/afg2.jpg",
+        "/assets/bestseller/afg3.jpg",
+        "/assets/bestseller/afg4.jpg",
+        "/assets/bestseller/afg5.jpg",
+        "/assets/bestseller/afg6.jpg",
+        "/assets/bestseller/afg7.jpg",
+        "/assets/bestseller/afg8.jpg"
+      ],
+      "fabric": "Chanderi",
+      "sleeves": "3/4th Sleeves",
+      "type": " Kurti Set With dupatta",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
+      "id": "bs08",
+      "name": "Noodle Strap Short Kurti With Plazzo Set",
+      "og_price": 3500,
+      "display_price": 2300,
+      "description": "Noodle strap ka nazakat bhara charm, short style mein endless charm—yeh set laaye har din ek nayi shaan ka alarm.",
+      "product_detail": "Noodle Strap Short Kurti Set",
+      "tags": ["chikankari", "noodle", "kurti", "set", "short"],
+      "colors": ["White", "Blue", "Pink", "Yellow", "Black", "Other"],
+      "img_path": "/assets/bestseller/nod1.jpg",
+      "additional_images": [
+        "/assets/bestseller/nod2.jpg",
+        "/assets/bestseller/nod3.jpg",
+        "/assets/bestseller/nod4.jpg",
+        "/assets/bestseller/nod6.jpg",
+        "/assets/bestseller/nod7.jpg",
+        "/assets/bestseller/nod8.jpg",
+        "/assets/bestseller/nod9.jpg",
+        "/assets/bestseller/nod10.jpg",
+        "/assets/bestseller/nod11.jpg",
+        "/assets/bestseller/nod12.jpg"
+      ],
+      "fabric": "Rayon",
+      "sleeves": "Sleeveless ",
+      "type": " Kurti Set ",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
+      "id": "bs01",
+      "name": "Dobby Cotton Set",
+      "og_price": 3000,
+      "display_price": 2350,
+      "description": "DOBBY cotton ki shaan, dupatte ka mehmaan—yeh set laaye har din ek naya utsah ka toofan.",
+      "product_detail": "Dobby Cotton Set with Pant, Kurti and Dupatta.Perfect for everyday workwear. Comfortable and very soft on the skin",
+      "tags": ["chikankari", "cotton", "kurti", "set", "dobby", "dupatta"],
+      "colors": [
+        "White",
+        "Blue",
+        "Pink",
+        "Yellow",
+        "Mint Green",
+        "Beige",
+        "Other"
+      ],
+      "img_path": "/assets/bestseller/bsdcs1.jpg",
+      "additional_images": [
+        "/assets/bestseller/bsdc2.jpg",
+        "/assets/bestseller/bsdc3.jpg",
+        "/assets/bestseller/bsdc4.jpg",
+        "/assets/bestseller/bsdc5.jpg"
+      ],
+      "fabric": "Dobby Cotton",
+      "sleeves": "3/4th Sleeves",
+      "type": " Kurti Set With dupatta",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
+      "id": "bs02",
+      "name": "Noodle Strap Kurti",
+      "og_price": 2499,
+      "display_price": 1750,
+      "description": "Noodle straps ka nazakat, bestseller ka ehsaas—yeh kurti de har nazar ko ek naya alfaaz.",
+      "product_detail": "A noodle strap kurti is a stylish and modern variation of the traditional kurti, featuring thin spaghetti-like straps instead of regular sleeves. It offers a chic and elegant look, making it perfect for casual outings, festive occasions, or summer wear.",
+      "tags": ["noodlestrap", "kurti", "sleevless", "spaghetti"],
+      "colors": ["Blue", "Pink", "Yellow", "Green", "Red", "Black", "Other"],
+      "img_path": "/assets/bestseller/nk1.jpg",
+      "additional_images": [
+        "/assets/bestseller/nk2.jpg",
+        "/assets/bestseller/nk3.jpg",
+        "/assets/bestseller/nk4.jpg",
+        "/assets/bestseller/nk5.jpg"
+      ],
+      "fabric": "Rayon",
+      "sleeves": "Sleeveless",
+      "type": "Straight Kurti",
+      "length": "Nil",
+      "category": "Long Kurti",
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
+    },
+    {
+      "id": "bs03",
+      "name": "Modal Heavy Work Big Buta Set",
+      "og_price": 2999,
+      "display_price": 2399,
+      "description": "Modal ki mulayamita, heavy work ka noor—yeh kurti set laaye har adaah mein ek naya suroor.",
+      "product_detail": "Crafted with premium modal fabric, lightweight and breathable.",
+      "tags": ["modal", "set", "heavy", "big buta"],
+      "colors": ["Purple", "Black", "Red", "Pink", "Blue", "Other"],
+      "img_path": "/assets/bestseller/ms1.jpg",
+      "additional_images": [
+        "/assets/bestseller/ms3.jpg",
+        "/assets/bestseller/ms4.jpg"
+      ],
+      "fabric": "Modal",
+      "sleeves": "3/4th Sleeves",
+      "type": "Straight Kurti",
+      "length": "Calf Length",
+      "category": "Kurti Set",
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
+    },
+    {
+      "id": "bs04",
+      "name": "Modal Work Set",
+      "og_price": 2699,
+      "display_price": 2300,
+      "description": "Modal ki narmiyan, kaarigari ka shaan—yeh work set banaye har din mehmaan.",
+      "product_detail": "Made from premium modal for ultimate comfort.",
+      "tags": ["chikankari", "modal", "roopal", "mridul"],
+      "colors": ["Red", "Black", "Navy Blue", "Other"],
+      "img_path": "/assets/bestseller/mss11.jpg",
+      "additional_images": [
+        "/assets/bestseller/mss1.jpg",
+        "/assets/bestseller/mss2.jpg",
+        "/assets/bestseller/mss3.jpg",
+        "/assets/bestseller/mss4.jpg"
+      ],
+      "fabric": "Modal",
+      "sleeves": "3/4th Sleeves",
+      "type": "Straight Kurti Set",
+      "length": "Calf Length",
+      "category": "Women Ethnic Wear",
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available. More colours available"
+    },
+    {
+      "id": "bs05",
+      "name": "Georgette Mirror Work Set",
+      "og_price": 3000,
+      "display_price": 1850,
+      "description": "Georgette ki chamak, mirror ka jadoo — Is set mein hai khushiyon ka saath, har pal hai naya rang bhadoo.",
+      "product_detail": "A 3 pc georgette set with dupatta, Perfect festive wear set.",
+      "tags": ["georgette", "set", "mirror work", "festive wear", "dupatta"],
+      "colors": [" Blue", "Green", "Yellow", "Pink", "purple", "other"],
+      "img_path": "/assets/bestseller/gws1.jpg",
+      "additional_images": [
+        "/assets/bestseller/gws2.jpg",
+        "/assets/bestseller/gws3.jpg",
+        "/assets/bestseller/gws4.jpg",
+        "/assets/bestseller/gws5.jpg",
+        "/assets/bestseller/gws6.jpg"
+      ],
+      "fabric": "Georgette",
+      "sleeves": "3/4th Sleeves",
+      "type": "Kurti Set With Dupatta",
+      "length": "Calf Length",
+      "category": "Kurti Set",
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Inner available at an extra cost, Minor alteration may be required, There is no margin available. More colours available"
+    }
+  ],
+
+  "new_arrivals": [
     {
       "id": "na01",
       "name": "Chikankari Kota Angarkha",
@@ -134,26 +244,25 @@
       "description": "Kota ki halkaayi, Chikankari ka noor—yeh Angarkha laaye tehzeeb ka ek naya suroor.",
       "product_detail": "Timeless Chikankari Work.",
       "tags": ["chikankari", "anagarkha", "frock", "kota"],
-      "colors": ["Purple", "Brown", "Pink", "Red","White","other"],
+      "colors": ["Purple", "Brown", "Pink", "Red", "White", "other"],
       "img_path": "/assets/new arrivals/angna1.jpg",
       "additional_images": [
         "/assets/new arrivals/angna2.jpg",
         "/assets/new arrivals/angna3.jpg",
-      
-       "/assets/new arrivals/angna5.jpg",
+
+        "/assets/new arrivals/angna5.jpg",
         "/assets/new arrivals/anagna6.jpg",
         "/assets/new arrivals/anagna7.jpg",
         "/assets/new arrivals/angna8.jpg",
         "/assets/new arrivals/angna9.jpg",
         "/assets/new arrivals/angna10.jpg"
-  
       ],
       "fabric": "Kota",
       "sleeves": "3/4th Sleeves",
       "type": "Frock",
       "length": "Calf Length",
       "category": "Angarkha",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
     },
     {
@@ -164,22 +273,20 @@
       "description": "Mal ki naram chaah, prints ka mithaas—yeh set laaye har din ek naya alfaaz.",
       "product_detail": "Soft mal, ideal for casual and party wear.",
       "tags": ["mal", "kurti", "print", "set"],
-      "colors": ["Pink", "Green","other"],
+      "colors": ["Pink", "Green", "other"],
       "img_path": "/assets/new arrivals/na11.jpg",
       "additional_images": [
         "/assets/new arrivals/na12.jpg",
         "/assets/new arrivals/na13.jpg",
         "/assets/new arrivals/na14.jpg"
-        
       ],
       "fabric": "Mal ",
       "sleeves": "3/4th Sleeves",
       "type": " Kurti Set",
       "length": "Calf Length",
       "category": "Kurti Set",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
-      
     },
     {
       "id": "na03",
@@ -189,7 +296,7 @@
       "description": "Mulmul ki nazakat, Mukaish ka noor—tone-to-tone kurti se aaye shauq mein ek naya suroor.",
       "product_detail": "Crafted with premium fabric, lightweight and breathable.",
       "tags": ["mukesh", "kurti", "embroidered", "mulmul"],
-      "colors": ["Green"," Blue","Beige","Yellow", "Other"],
+      "colors": ["Green", " Blue", "Beige", "Yellow", "Other"],
       "img_path": "/assets/new arrivals/na222.jpg",
       "additional_images": [
         "/assets/new arrivals/na22.jpg",
@@ -198,14 +305,13 @@
         "/assets/new arrivals/na25.jpg",
         "/assets/new arrivals/na26.jpg",
         "/assets/new arrivals/na27.jpg"
-
       ],
       "fabric": "Mulmul",
       "sleeves": "3/4th Sleeves",
       "type": "Straight Kurti",
       "length": "Calf Length",
       "category": "Women Ethnic Wear",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
     },
     {
@@ -215,10 +321,9 @@
       "display_price": 1499,
       "description": "Chikankari ki nazaqat aur organza silk ka royal touch—ek aisa ensemble jo aapki spring wardrobe ko banayega aur bhi classy aur stylish!",
 
-
       "product_detail": " Elegant Chikankari Fancy Embroidery",
       "tags": ["chikankari", "organza", "kurti", "silk"],
-      "colors": ["Green","Pink","purple","Other"],
+      "colors": ["Green", "Pink", "purple", "Other"],
       "img_path": "/assets/new arrivals/ona1.jpg",
       "additional_images": [
         "/assets/new arrivals/ona2.jpg",
@@ -233,7 +338,7 @@
       "type": "Straight Kurti",
       "length": "Calf Length",
       "category": " Long Kurti",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alteration may be required, There is no margin available. More colours available."
     }
   ],
@@ -247,7 +352,7 @@
       "description": "Cotton ki naramii, style ka jadoo—yeh short kurti banaye har din ko khoobsurat pal ka afsana",
       "product_detail": "Made from cotton, this kurti is perfect for summer wear.",
       "tags": ["chikankari", "cotton", "kurti", "short"],
-      "colors": ["Purple", "Blue", "Pink","Green","grey","Other"],
+      "colors": ["Purple", "Blue", "Pink", "Green", "grey", "Other"],
       "img_path": "/assets/Short Kurti/csk1.jpg",
       "additional_images": [
         "/assets/Short Kurti/csk2.jpg",
@@ -260,7 +365,7 @@
       "type": "Short Kurti",
       "length": "Calf Length",
       "category": "Short Kurti",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations may be required, More sizes and colours available."
     },
     {
@@ -272,34 +377,34 @@
       "product_detail": "Soft fabric, ideal for everyday wear.",
       "tags": ["noodle", "short", "kurti", "lucknowi"],
       "colors": ["Peach", "Mint Green"],
-        "img_path": "/assets/Short Kurti/nsk11.jpg",
-      
+      "img_path": "/assets/Short Kurti/nsk11.jpg",
+
       "additional_images": [
         "/assets/Short Kurti/nsk1.jpg",
         "/assets/Short Kurti/nsk2.jpg",
         "/assets/Short Kurti/nsk3.jpg",
         "/assets/Short Kurti/nsk4.jpg",
-      "/assets/Short Kurti/nsk5.jpg",
-      "/assets/Short Kurti/nsk6.jpg",
-      "/assets/Short Kurti/nsk7.jpg"
+        "/assets/Short Kurti/nsk5.jpg",
+        "/assets/Short Kurti/nsk6.jpg",
+        "/assets/Short Kurti/nsk7.jpg"
       ],
       "fabric": " Cotton",
       "sleeves": "Sleeveless",
       "type": "Short Kurti",
       "length": "Calf Length",
       "category": "Short Kurti",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations may be required, More sizes and colours available."
     },
     {
-      "id":"sk03",
+      "id": "sk03",
       "name": "Rayon Short Kurti",
       "og_price": 1999,
       "display_price": 1199,
       "description": "Rayon ki mulayam chaap, style mein ek naya adaab—yeh short kurti de har din ko khoobsurat nawab",
       "product_detail": "Crafted with premium rayon fabric , lightweight and breathable.",
       "tags": ["rayon", "short kurti ", "kurti", "ethnic"],
-      "colors": ["Purple", "Sea Green","Pink","Other"],
+      "colors": ["Purple", "Sea Green", "Pink", "Other"],
       "img_path": "/assets/Short Kurti/rsk1.jpg",
       "additional_images": [
         "/assets/Short Kurti/rsk2.jpg",
@@ -313,7 +418,7 @@
       "type": "Short Kurti",
       "length": "Calf Length",
       "category": "Women Ethnic Wear",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations may be required, More sizes and colours available.."
     }
   ],
@@ -327,25 +432,23 @@
       "description": "Chiffon ki naram lehar, Georgette ka khoobsurat asar—yeh long kurti har kadam pe laaye ek naya shahar.",
       "product_detail": "Made from chiffon georgette , this kurti is perfect for party wear.",
       "tags": ["chiffon", "georgette ", "kurti", "party"],
-      "colors": ["Orange", "Blue", "Pink","Yellow","Other"],
+      "colors": ["Orange", "Blue", "Pink", "Yellow", "Other"],
       "img_path": "/assets/Long Kurti/clk1.jpg",
       "additional_images": [
         "/assets/Long Kurti/clk2.jpg",
         "/assets/Long Kurti/clk3.jpg",
-         "/assets/Long Kurti/clk4.jpg",
-          "/assets/Long Kurti/clk5.jpg",
-           "/assets/Long Kurti/clk6.jpg",
-            "/assets/Long Kurti/clk7.jpg",
-             "/assets/Long Kurti/clk8.jpg"
-          
+        "/assets/Long Kurti/clk4.jpg",
+        "/assets/Long Kurti/clk5.jpg",
+        "/assets/Long Kurti/clk6.jpg",
+        "/assets/Long Kurti/clk7.jpg",
+        "/assets/Long Kurti/clk8.jpg"
       ],
       "fabric": "Georgette",
       "sleeves": "3/4th Sleeves",
       "type": "Straight Kurti",
       "length": "Calf Length",
       "category": "Long Kurti",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"
-    ],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations may be required, More colours and sizes available."
     },
     {
@@ -356,7 +459,7 @@
       "description": "Modal ki makhmali chaah, har andaaz mein ek nayi raah—yeh long kurti de style ko naya ibaadatnama.",
       "product_detail": "Soft modal  fabric, ideal for casual and party wear.",
       "tags": ["modal", "kurti", "long", "lucknowi"],
-      "colors": ["Red", "Green","Black","Other"],
+      "colors": ["Red", "Green", "Black", "Other"],
       "img_path": "/assets/Long Kurti/mlk1.jpg",
       "additional_images": [
         "/assets/Long Kurti/mlk2.jpg",
@@ -365,7 +468,7 @@
         "/assets/Long Kurti/mlk5.jpg",
         "/assets/Long Kurti/mlk6.jpg",
         "/assets/Long Kurti/mlk7.jpg"
-            ],
+      ],
       "fabric": "Modal",
       "sleeves": "3/4th Sleeves",
       "type": "Straight Kurti",
@@ -382,7 +485,7 @@
       "description": "Rayon ki nazakat, lambai mein shaan—yeh long kurti de har kadam ko ek naya armaan.",
       "product_detail": "Crafted with premium rayon fabric, lightweight and breathable.",
       "tags": ["rayon", "kurti", "chikankari", "ethnic"],
-      "colors": ["Purple", "Pink","Other"],
+      "colors": ["Purple", "Pink", "Other"],
       "img_path": "/assets/Long Kurti/rlk1.jpg",
       "additional_images": [
         "/assets/Long Kurti/rlk2.jpg",
@@ -394,7 +497,7 @@
       "type": "Straight Kurti",
       "length": "Calf Length",
       "category": "Long Kurti",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations may be required, More colours and sizes available."
     }
   ],
@@ -408,7 +511,7 @@
       "description": "Rayon ki mulayam chaah, short top ka stylish ehsaas—yeh set laaye har din ek naya andaaz.",
       "product_detail": "Made from rayon, this kurti is perfect for everyday wear.",
       "tags": ["rayon", "short", "set", "top"],
-      "colors": ["Red", "Blue", "Pink","Other"],
+      "colors": ["Red", "Blue", "Pink", "Other"],
       "img_path": "/assets/kurtiset/rts1.jpg",
       "additional_images": [
         "/assets/kurtiset/rts2.jpg",
@@ -433,7 +536,7 @@
       "description": "Georgette ki lehrahat, gharara ka ada—yeh set laaye har pal mein shahi shaan ka maza.",
       "product_detail": "Soft georgette fabric, ideal for festive and party wear.",
       "tags": ["georgette", "kurti set", "festive", "lucknowi"],
-      "colors": ["Peach", "Mint Green","Other"],
+      "colors": ["Peach", "Mint Green", "Other"],
       "img_path": "/assets/kurtiset/ggs1.jpg",
       "additional_images": [
         "/assets/kurtiset/ggs2.jpg",
@@ -458,7 +561,7 @@
       "description": "Rayon ki naramiyan, style ka ehsas—yeh kurti-pant set de har din ko naya andaaz.",
       "product_detail": "Crafted with premium rayon fabric, lightweight and breathable.",
       "tags": ["rayon", "pant", "kurti", "set"],
-      "colors": ["Blue", "Pink","Other"],
+      "colors": ["Blue", "Pink", "Other"],
       "img_path": "/assets/kurtiset/rps1.jpg",
       "additional_images": [
         "/assets/kurtiset/rps2.jpg",
@@ -473,7 +576,7 @@
       "type": "Straight Kurti Set",
       "length": "Calf Length",
       "category": "Kurti Sets",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alterations maybe required, more colours and sizes available."
     }
   ],
@@ -487,7 +590,7 @@
       "description": "Muslin ki nazakat, A-line ka andaaz—Pom Pom ke saath yeh dress laaye masti aur nawaz.",
       "product_detail": "A luxury statement peice.",
       "tags": ["chikankari", "muslin", "kurti", "luxury"],
-      "colors": ["White", "Blue", "Pink","Other"],
+      "colors": ["White", "Blue", "Pink", "Other"],
       "img_path": "/assets/luxe/cluxe1.jpg",
       "additional_images": [
         "/assets/luxe/cluxe2.jpg",
@@ -501,7 +604,7 @@
       "type": "A line Kurti",
       "length": "Calf Length",
       "category": "Clofer Luxe",
-      "size": ["S", "M", "L", "XL", "XXL","XXXL"],
+      "size": ["S", "M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "More colours and sizes available."
     }
   ],
