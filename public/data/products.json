@@ -1,6 +1,36 @@
 {
   "bestsellers": [
     {
+      "id": "bs08",
+      "name": "Noodle Strap Short Kurti With Plazzo Set",
+      "og_price": 3500,
+      "display_price": 2300,
+      "description": "Noodle strap ka nazakat bhara charm, short style mein endless charm—yeh set laaye har din ek nayi shaan ka alarm.",
+      "product_detail": "Noodle Strap Short Kurti Set",
+      "tags": ["chikankari", "noodle", "kurti", "set", "short"],
+      "colors": ["White", "Blue", "Pink", "Yellow", "Black", "Other"],
+      "img_path": "/assets/bestseller/nod1.jpg",
+      "additional_images": [
+        "/assets/bestseller/nod2.jpg",
+        "/assets/bestseller/nod3.jpg",
+        "/assets/bestseller/nod4.jpg",
+        "/assets/bestseller/nod6.jpg",
+        "/assets/bestseller/nod7.jpg",
+        "/assets/bestseller/nod8.jpg",
+        "/assets/bestseller/nod9.jpg",
+        "/assets/bestseller/nod10.jpg",
+        "/assets/bestseller/nod11.jpg",
+        "/assets/bestseller/nod12.jpg"
+      ],
+      "fabric": "Rayon",
+      "sleeves": "Sleeveless ",
+      "type": " Kurti Set ",
+      "length": "NA",
+      "category": "Kurti Set",
+      "size": ["M", "L", "XL", "XXL", "XXXL"],
+      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+    },
+    {
       "id": "bs06",
       "name": "Mal Co-ord Set",
       "og_price": 2500,
@@ -76,36 +106,7 @@
       "size": ["M", "L", "XL", "XXL", "XXXL"],
       "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
     },
-    {
-      "id": "bs08",
-      "name": "Noodle Strap Short Kurti With Plazzo Set",
-      "og_price": 3500,
-      "display_price": 2300,
-      "description": "Noodle strap ka nazakat bhara charm, short style mein endless charm—yeh set laaye har din ek nayi shaan ka alarm.",
-      "product_detail": "Noodle Strap Short Kurti Set",
-      "tags": ["chikankari", "noodle", "kurti", "set", "short"],
-      "colors": ["White", "Blue", "Pink", "Yellow", "Black", "Other"],
-      "img_path": "/assets/bestseller/nod1.jpg",
-      "additional_images": [
-        "/assets/bestseller/nod2.jpg",
-        "/assets/bestseller/nod3.jpg",
-        "/assets/bestseller/nod4.jpg",
-        "/assets/bestseller/nod6.jpg",
-        "/assets/bestseller/nod7.jpg",
-        "/assets/bestseller/nod8.jpg",
-        "/assets/bestseller/nod9.jpg",
-        "/assets/bestseller/nod10.jpg",
-        "/assets/bestseller/nod11.jpg",
-        "/assets/bestseller/nod12.jpg"
-      ],
-      "fabric": "Rayon",
-      "sleeves": "Sleeveless ",
-      "type": " Kurti Set ",
-      "length": "NA",
-      "category": "Kurti Set",
-      "size": ["M", "L", "XL", "XXL", "XXXL"],
-      "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
-    },
+
     {
       "id": "bs01",
       "name": "Dobby Cotton Set",
