@@ -1,6 +1,34 @@
 {
   "bestsellers": [
     {
+        "id": "bs01",
+        "name": "Rayon Set With Plazo",
+        "og_price": 3500,
+        "display_price":1850,
+        "description":"Rayon ki narmi, plazo ka flair—yeh set banaye har pal ko stylish aur rare." ,
+        "product_detail": " Rayon Kurti Set",
+        "tags": ["chikankari", "mrodul", "kurti", "set", "rayon"],
+        "colors": ["Pink", "Red", "Blue", "Olive Green", "Lavender", "Black", "Dark Green", "Grey", "Brown"],
+        "img_path": "/assets/bestseller/rayon_new1.jpg",
+        "additional_images": [
+          "/assets/bestseller/rayon_new2.jpg",
+          "/assets/bestseller/rayon_new3.jpg",
+          "/assets/bestseller/rayon_new4.jpg",
+          "/assets/bestseller/rayon_new5.jpg",
+          "/assets/bestseller/rayon_new6.jpg",
+          "/assets/bestseller/rayon_new7.jpg",
+          "/assets/bestseller/rayon_new8.jpg",
+          "/assets/bestseller/rayon_new9.jpg"
+        ],
+        "fabric": "Rayon",
+        "sleeves": "Half sleeves",
+        "type": " Kurti Set ",
+        "length": "NA",
+        "category": "Kurti Set",
+        "size": ["M", "L", "XL", "XXL","XXXL"],
+        "additional_details": "Minor alteration may be required, There is no margin available.More colours available."
+      },
+    {
       "id": "bs05",
       "name": "Noodle Strap Short Kurti With Plazzo Set",
       "og_price": 3500,
